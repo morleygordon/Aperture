@@ -1,0 +1,188 @@
+{
+  "ciso": {
+    "title": "CISO",
+    "icon": "👔",
+    "color": "var(--amber)",
+    "painPoints": [
+      "Board pressure to quantify cyber risk in dollar terms",
+      "Tool sprawl — too many vendors, inconsistent data",
+      "Talent shortage — can't hire enough skilled analysts",
+      "Regulatory compliance burden increasing (SEC 4-day disclosure)",
+      "Supply chain risk visibility gaps"
+    ],
+    "orionValue": [
+      "Risk quantification engine with real-time threat data → board-ready metrics",
+      "Consolidates 4-5 tools into one platform → vendor reduction",
+      "AI augments each analyst to 10x productivity → solves talent gap",
+      "Automated materiality assessment for SEC compliance → 4 hours not 4 days",
+      "Supply chain threat monitoring with vendor risk scoring"
+    ],
+    "demoFlow": [
+      "Start with executive dashboard — ROI metrics and risk posture",
+      "Show board-ready reporting — AI-generated executive summaries",
+      "Demonstrate tool consolidation — \"Replace 5 logins with 1\"",
+      "Walk through compliance automation — SEC disclosure workflow",
+      "End with customer proof points — similar org, similar results"
+    ],
+    "objections": [
+      "Too expensive → Show tool consolidation savings (net neutral)",
+      "Already have threat intel → Show AI investigation vs. manual comparison",
+      "Need internal buy-in → Provide champion arming materials",
+      "Long procurement cycle → Offer 30-day POV to prove value first"
+    ],
+    "closingQuestions": [
+      "What does your board expect to see in terms of cyber risk reporting?",
+      "How many tools is your team currently context-switching between?",
+      "What would it mean if your team could handle 3x the investigation volume?"
+    ]
+  },
+  "soc-mgr": {
+    "title": "SOC Manager",
+    "icon": "🛡️",
+    "color": "var(--accent)",
+    "painPoints": [
+      "Alert fatigue — thousands of alerts, most false positives",
+      "Analyst burnout and high turnover (40%+ annually)",
+      "Manual investigation workflows taking hours per incident",
+      "Lack of dark web visibility and threat actor attribution",
+      "Integration challenges with existing SIEM/SOAR stack"
+    ],
+    "orionValue": [
+      "AI auto-triages 85% of alerts → analysts focus on real threats",
+      "Each analyst becomes 10x more effective → reduces burnout",
+      "30-second investigations vs. 45-minute manual process",
+      "Real-time dark web monitoring and automated attribution",
+      "Native SIEM/SOAR integrations — deploys alongside existing stack"
+    ],
+    "demoFlow": [
+      "Start with alert triage demo — show AI vs. manual side-by-side",
+      "Live investigation — paste a real IOC and watch Orion work",
+      "Show dark web monitoring — threat actor profiles in seconds",
+      "Demonstrate SIEM integration — how Orion fits their workflow",
+      "End with Cyber Operations Simulator — let them play it"
+    ],
+    "objections": [
+      "We have too many tools already → Orion replaces tools, not adds another",
+      "Our SIEM handles this → SIEM alerts, Orion investigates — they're complementary",
+      "Need to see it work with our data → Offer POV with their real IOCs",
+      "Team doesn't want to learn another tool → Show 30-second investigation — no learning curve"
+    ],
+    "closingQuestions": [
+      "How long does a typical investigation take your team today?",
+      "What's your analyst turnover rate? What would reducing it mean for your team?",
+      "If your team could handle 5x the alert volume without adding headcount, what would that unlock?"
+    ]
+  },
+  "compliance": {
+    "title": "Compliance Officer",
+    "icon": "⚖️",
+    "color": "var(--green)",
+    "painPoints": [
+      "Regulatory requirements changing rapidly across jurisdictions",
+      "Travel Rule compliance complexity",
+      "Sanctions screening accuracy and false positive rates",
+      "Audit trail and evidence preservation requirements",
+      "Cross-border reporting obligations"
+    ],
+    "orionValue": [
+      "Real-time regulatory monitoring across 50+ jurisdictions",
+      "Automated Travel Rule compliance workflows",
+      "99.8% sanctions screening accuracy with minimal false positives",
+      "Immutable audit trail with court-admissible evidence packaging",
+      "Cross-border reporting automation with jurisdiction-specific templates"
+    ],
+    "demoFlow": [
+      "Start with regulatory landscape — show jurisdiction coverage",
+      "Demo sanctions screening — accuracy and speed vs. current process",
+      "Walk through audit trail — evidence preservation for regulators",
+      "Show Travel Rule automation — compliance without friction",
+      "End with regulatory update alerts — \"never miss a change\""
+    ],
+    "objections": [
+      "We already meet compliance requirements → Show where gaps exist (dark web, cross-chain)",
+      "Too complex to implement → 2-week deployment, dedicated compliance onboarding",
+      "Our regulator hasn't required this yet → Show jurisdictions already requiring it",
+      "Need approval from legal → Provide regulatory compliance documentation package"
+    ],
+    "closingQuestions": [
+      "How confident are you that your current screening catches cross-chain movements?",
+      "What happens when your regulator asks for investigation evidence from 6 months ago?",
+      "How many hours per week does your team spend on manual compliance reporting?"
+    ]
+  },
+  "cto": {
+    "title": "CTO / VP Engineering",
+    "icon": "🔧",
+    "color": "var(--red)",
+    "painPoints": [
+      "API integration complexity with existing security stack",
+      "Data sovereignty and deployment flexibility requirements",
+      "Performance at scale — millions of entities, sub-second queries",
+      "Development team bandwidth for security tooling",
+      "Total cost of ownership across the security stack"
+    ],
+    "orionValue": [
+      "RESTful API with comprehensive documentation — integrate in days",
+      "On-prem, cloud, and hybrid deployment options — full data sovereignty",
+      "Graph database architecture handles billions of entities at sub-second speed",
+      "Zero development overhead — fully managed SaaS with self-service admin",
+      "Consolidation reduces total stack TCO by 30-50%"
+    ],
+    "demoFlow": [
+      "Start with API documentation — show developer experience",
+      "Demo integration speed — live API call from their environment",
+      "Show architecture diagram — scalability and performance",
+      "Walk through deployment options — match their requirements",
+      "End with TCO analysis — consolidation savings"
+    ],
+    "objections": [
+      "Our stack is locked down → Show API-first architecture, works alongside existing tools",
+      "Concerned about performance → Share benchmark data — sub-100ms query times",
+      "Build vs. buy → Show what it would take to build internally (years + millions)",
+      "Data residency concerns → Offer deployment in their preferred region/on-prem"
+    ],
+    "closingQuestions": [
+      "What does your current integration timeline look like for new security tools?",
+      "Where are you on the build vs. buy spectrum for investigation capabilities?",
+      "What would sub-second entity enrichment mean for your investigation workflows?"
+    ]
+  },
+  "procurement": {
+    "title": "Procurement",
+    "icon": "📊",
+    "color": "var(--indigo)",
+    "painPoints": [
+      "Budget constraints and approval processes",
+      "Vendor consolidation mandates",
+      "Contract terms and SLA requirements",
+      "Competitive bidding requirements",
+      "Total cost of ownership justification"
+    ],
+    "orionValue": [
+      "Net-neutral cost through tool consolidation — eliminates 3-5 existing subscriptions",
+      "Supports vendor consolidation strategy — one platform replaces many",
+      "Enterprise SLAs with 99.9% uptime guarantee and dedicated support",
+      "Transparent pricing — no hidden costs, no per-query fees",
+      "Clear ROI documentation with customer proof points for budget approval"
+    ],
+    "demoFlow": [
+      "Start with TCO comparison — current stack vs. Orion",
+      "Show tool consolidation matrix — what Orion replaces",
+      "Review contract terms — flexible, transparent, enterprise-grade",
+      "Present customer references — similar org size and industry",
+      "End with ROI calculator — show payback period"
+    ],
+    "objections": [
+      "Over budget → Show net savings from tool consolidation",
+      "Need 3 competitive bids → Provide comparison matrix vs. alternatives",
+      "Contract terms are rigid → Flexible terms available, discuss specifics",
+      "Need more references → Connect with 3 similar customers directly",
+      "Long approval cycle → Start with free POV to build the business case"
+    ],
+    "closingQuestions": [
+      "What tools could Orion potentially replace in your current security stack?",
+      "What does your typical vendor approval timeline look like?",
+      "Would it help to connect with a procurement peer at a similar organization who went through this process?"
+    ]
+  }
+}

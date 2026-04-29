@@ -1,0 +1,626 @@
+[
+  {
+    "account": "Merkle",
+    "name": "S&T - #2 - Orion",
+    "stage": "Demo",
+    "amount": 3000000,
+    "close": "2026-08-30",
+    "owner": "Alex Rivera"
+  },
+  {
+    "account": "Merkle",
+    "name": "Merkle - Orion Cyber Center High Side Deployment",
+    "stage": "Demo",
+    "amount": 2999000,
+    "close": "2027-01-31",
+    "owner": "Alex Rivera"
+  },
+  {
+    "account": "Merkle",
+    "name": "Open Source (Orion)",
+    "stage": "Demo",
+    "amount": 2380000,
+    "close": "2026-09-15",
+    "owner": "Kyle Helseth"
+  },
+  {
+    "account": "Defence Science and Technology Agency (DSTA)",
+    "name": "New Business Orion - Sale of Agent",
+    "stage": "Qualify",
+    "amount": 2000000,
+    "close": "2026-11-18",
+    "owner": "An Shun Tan"
+  },
+  {
+    "account": "Shamir",
+    "name": "Shamir - Orion",
+    "stage": "Trial",
+    "amount": 1190000,
+    "close": "2026-07-01",
+    "owner": "Allyson Warren"
+  },
+  {
+    "account": "US Customs and Border Protection CBP",
+    "name": "US CBP - Orion for TRA",
+    "stage": "Qualify",
+    "amount": 1020000,
+    "close": "2026-12-31",
+    "owner": "Rita Martess"
+  },
+  {
+    "account": "U.S. Secret Service",
+    "name": "U.S. Secret Service - Orion",
+    "stage": "Qualify",
+    "amount": 960000,
+    "close": "2026-12-31",
+    "owner": "Rita Martess"
+  },
+  {
+    "account": "Teller",
+    "name": "Teller Orion, Saber",
+    "stage": "Qualify",
+    "amount": 900000,
+    "close": "2026-12-11",
+    "owner": "Ryan Campbell"
+  },
+  {
+    "account": "IRS-CI",
+    "name": "IRS-CI - Orion",
+    "stage": "Demo",
+    "amount": 900000,
+    "close": "2026-09-17",
+    "owner": "Kevin Ransom"
+  },
+  {
+    "account": "CSIS (Watchtower)",
+    "name": "Canadian Security Intelligence Service (CSIS) - ORION",
+    "stage": "Demo",
+    "amount": 500000,
+    "close": "2027-01-01",
+    "owner": "Tyler Orr"
+  },
+  {
+    "account": "Swedish Police",
+    "name": "Swedish Police - Orion",
+    "stage": "Demo",
+    "amount": 480000,
+    "close": "2026-12-18",
+    "owner": "John Cann"
+  },
+  {
+    "account": "Blaze",
+    "name": "Blaze (Orion)",
+    "stage": "Demo",
+    "amount": 480000,
+    "close": "2026-12-18",
+    "owner": "Ryan Campbell"
+  },
+  {
+    "account": "Serber - Alpha",
+    "name": "Serber - Alpha (Orion)",
+    "stage": "Trial",
+    "amount": 480000,
+    "close": "2026-09-30",
+    "owner": "Ryan Campbell"
+  },
+  {
+    "account": "Chaum",
+    "name": "Chaum - Orion for CCC",
+    "stage": "Qualify",
+    "amount": 480000,
+    "close": "2026-09-01",
+    "owner": "Allyson Warren"
+  },
+  {
+    "account": "Fermi",
+    "name": "Fermi - Alpha (Orion)",
+    "stage": "Trial",
+    "amount": 480000,
+    "close": "2026-06-30",
+    "owner": "Ryan Campbell"
+  },
+  {
+    "account": "NYDFS",
+    "name": "NYDFS - Orion FDOS",
+    "stage": "Qualify",
+    "amount": 480000,
+    "close": "2026-12-31",
+    "owner": "John Ross Schreder"
+  },
+  {
+    "account": "Libby",
+    "name": "Libby - Orion Pilot",
+    "stage": "Qualify",
+    "amount": 480000,
+    "close": "2026-10-01",
+    "owner": "Allyson Warren"
+  },
+  {
+    "account": "Chaum",
+    "name": "Chaum - Orion for Zach B",
+    "stage": "Qualify",
+    "amount": 480000,
+    "close": "2026-08-31",
+    "owner": "Allyson Warren"
+  },
+  {
+    "account": "NSSIF",
+    "name": "NSSIF: Orion Work Programme",
+    "stage": "Demo",
+    "amount": 480000,
+    "close": "2026-06-26",
+    "owner": "Owain Mason-Johns"
+  },
+  {
+    "account": "DEA HQ",
+    "name": "DEA HQ - Office of Special Intel - Orion",
+    "stage": "Qualify",
+    "amount": 480000,
+    "close": "2026-09-11",
+    "owner": "Greg Krupkin"
+  },
+  {
+    "account": "Merkle",
+    "name": "Merkle - Advanced Data (Orion)",
+    "stage": "Demo",
+    "amount": 480000,
+    "close": "2026-06-17",
+    "owner": "Alex Rivera"
+  },
+  {
+    "account": "AUSTRAC",
+    "name": "AUSTRAC AI Tender - Orion",
+    "stage": "Qualify",
+    "amount": 480000,
+    "close": "2027-03-31",
+    "owner": "Nathan Fischer"
+  },
+  {
+    "account": "Wilson",
+    "name": "Wilson - Orion",
+    "stage": "Trial",
+    "amount": 480000,
+    "close": "2026-12-17",
+    "owner": "Tal Croitoru"
+  },
+  {
+    "account": "National Crime Agency (NCA)",
+    "name": "NCA Orion Pilot",
+    "stage": "Trial",
+    "amount": 480000,
+    "close": "2026-06-26",
+    "owner": "Owain Mason-Johns"
+  },
+  {
+    "account": "FINRA",
+    "name": "FINRA - Expansion - Orion",
+    "stage": "Trial",
+    "amount": 480000,
+    "close": "2026-09-30",
+    "owner": "John Ross Schreder"
+  },
+  {
+    "account": "National Futures Association (NFA)",
+    "name": "NFA - Expansion Orion",
+    "stage": "Qualify",
+    "amount": 480000,
+    "close": "2026-10-31",
+    "owner": "John Ross Schreder"
+  },
+  {
+    "account": "Israel National Police",
+    "name": "Israel National Police - Orion",
+    "stage": "Trial",
+    "amount": 480000,
+    "close": "2027-06-23",
+    "owner": "Tal Croitoru"
+  },
+  {
+    "account": "SEC",
+    "name": "SEC - Orion",
+    "stage": "Trial",
+    "amount": 480000,
+    "close": "2026-06-30",
+    "owner": "John Ross Schreder"
+  },
+  {
+    "account": "FBI - Headquarters",
+    "name": "FBI - Headquarters - Expansion Orion",
+    "stage": "Trial",
+    "amount": 480000,
+    "close": "2026-09-11",
+    "owner": "Greg Krupkin"
+  },
+  {
+    "account": "Homeland Security Investigations (HSI)",
+    "name": "HSI - Orion",
+    "stage": "Qualify",
+    "amount": 480000,
+    "close": "2026-12-31",
+    "owner": "Rita Martess"
+  },
+  {
+    "account": "TRACFIN",
+    "name": "French Ministry of Finance - TRACFIN Orion",
+    "stage": "Qualify",
+    "amount": 400000,
+    "close": "2026-11-13",
+    "owner": "Laurent Tisseyre"
+  },
+  {
+    "account": "ABW (Poland)",
+    "name": "ABW - Orion",
+    "stage": "Qualify",
+    "amount": 350000,
+    "close": "2026-09-18",
+    "owner": "John Cann"
+  },
+  {
+    "account": "Cyber Security Agency of Singapore (CSA)",
+    "name": "CSA - Orion",
+    "stage": "Trial",
+    "amount": 350000,
+    "close": "2026-09-25",
+    "owner": "Eileen Ng"
+  },
+  {
+    "account": "Korea Company",
+    "name": "Korea Company - ORION",
+    "stage": "Trial",
+    "amount": 350000,
+    "close": "2026-11-30",
+    "owner": "MJ Kim"
+  },
+  {
+    "account": "Ontario Provincial Police",
+    "name": "Ontario Provincial Police - ORION",
+    "stage": "Trial",
+    "amount": 350000,
+    "close": "2027-01-01",
+    "owner": "Tyler Orr"
+  },
+  {
+    "account": "RCMP - Richmond",
+    "name": "RCMP - ORION - NC3",
+    "stage": "Demo",
+    "amount": 350000,
+    "close": "2026-11-30",
+    "owner": "Tyler Orr"
+  },
+  {
+    "account": "Financial Conduct Authority",
+    "name": "FCA - Orion Intelligence",
+    "stage": "Qualify",
+    "amount": 300000,
+    "close": "2026-06-30",
+    "owner": "Josh Mccoll"
+  },
+  {
+    "account": "FIOD",
+    "name": "FIOD - Orion",
+    "stage": "Qualify",
+    "amount": 270000,
+    "close": "2026-12-17",
+    "owner": "Tal Croitoru"
+  },
+  {
+    "account": "Mindef - A6",
+    "name": "Mindef - A6 - Orion",
+    "stage": "Qualify",
+    "amount": 250000,
+    "close": "2026-11-10",
+    "owner": "An Shun Tan"
+  },
+  {
+    "account": "KNPA",
+    "name": "KNPA - Orion",
+    "stage": "Trial Validation",
+    "amount": 250000,
+    "close": "2026-10-31",
+    "owner": "MJ Kim"
+  },
+  {
+    "account": "SPF / HTX (Singapore)",
+    "name": "SPF / HTX - Orion",
+    "stage": "Trial",
+    "amount": 250000,
+    "close": "2026-09-25",
+    "owner": "Eileen Ng"
+  },
+  {
+    "account": "Metropolitan Police Service",
+    "name": "Metropolitan Police Service - Orion",
+    "stage": "Qualify",
+    "amount": 240000,
+    "close": "2026-09-24",
+    "owner": "Josh Mccoll"
+  },
+  {
+    "account": "Merkle",
+    "name": "Cyber Center - Small Orion Bridge Deal",
+    "stage": "Demo",
+    "amount": 240000,
+    "close": "2026-06-15",
+    "owner": "Alex Rivera"
+  },
+  {
+    "account": "Dutch National Police (Politie)",
+    "name": "Dutch National Police - Orion",
+    "stage": "Demo",
+    "amount": 240000,
+    "close": "2026-11-25",
+    "owner": "Tal Croitoru"
+  },
+  {
+    "account": "Canada Revenue Agency",
+    "name": "Canada Revenue Agency - ORION",
+    "stage": "Demo",
+    "amount": 200000,
+    "close": "2027-01-31",
+    "owner": "Tyler Orr"
+  },
+  {
+    "account": "Singapore Ministry of Home Affairs",
+    "name": "MHA - Orion as AI Tool",
+    "stage": "Demo",
+    "amount": 200000,
+    "close": "2026-09-29",
+    "owner": "An Shun Tan"
+  },
+  {
+    "account": "Center For Cybersecurity - Belgium",
+    "name": "Belgium Cybersecurity - Orion",
+    "stage": "Demo",
+    "amount": 180000,
+    "close": "2026-10-15",
+    "owner": "Tal Croitoru"
+  },
+  {
+    "account": "Europol",
+    "name": "Europol - Orion",
+    "stage": "Demo",
+    "amount": 160000,
+    "close": "2026-12-16",
+    "owner": "Tal Croitoru"
+  },
+  {
+    "account": "RCMP",
+    "name": "RCMP - ORION - C Division",
+    "stage": "Qualify",
+    "amount": 150000,
+    "close": "2026-12-31",
+    "owner": "Tyler Orr"
+  },
+  {
+    "account": "AMF (Canada)",
+    "name": "Autorité des marchés financiers - ORION",
+    "stage": "Qualify",
+    "amount": 150000,
+    "close": "2027-06-30",
+    "owner": "Tyler Orr"
+  },
+  {
+    "account": "Bavarian State Criminal Police (BLKA)",
+    "name": "BLKA Orion",
+    "stage": "Qualify",
+    "amount": 125000,
+    "close": "2026-11-30",
+    "owner": "Tal Croitoru"
+  },
+  {
+    "account": "Israel Tax Authority",
+    "name": "Israel Tax Authority - Orion",
+    "stage": "Demo",
+    "amount": 124800,
+    "close": "2026-07-30",
+    "owner": "Tal Croitoru"
+  },
+  {
+    "account": "Hessen State Police (HLKA)",
+    "name": "HLKA Orion",
+    "stage": "Qualify",
+    "amount": 108000,
+    "close": "2026-12-10",
+    "owner": "Tal Croitoru"
+  },
+  {
+    "account": "LKA NRW Police",
+    "name": "LKA NRW Orion",
+    "stage": "Qualify",
+    "amount": 108000,
+    "close": "2026-12-10",
+    "owner": "Tal Croitoru"
+  },
+  {
+    "account": "Bundeskriminalamt BKA (Germany)",
+    "name": "BKA - Expansion - Orion",
+    "stage": "Qualify",
+    "amount": 108000,
+    "close": "2026-09-30",
+    "owner": "Tal Croitoru"
+  },
+  {
+    "account": "VIGINUM",
+    "name": "VIGINUM - ORION",
+    "stage": "Demo",
+    "amount": 105200,
+    "close": "2026-09-25",
+    "owner": "Laurent Tisseyre"
+  },
+  {
+    "account": "New York City Police Department",
+    "name": "NYPD CT Unit - Orion",
+    "stage": "Demo",
+    "amount": 100000,
+    "close": "2026-02-24",
+    "owner": "Jack Lowder"
+  },
+  {
+    "account": "New York State Police",
+    "name": "New York State Police - Orion",
+    "stage": "Demo",
+    "amount": 100000,
+    "close": "2026-12-21",
+    "owner": "Ryan Belcher"
+  },
+  {
+    "account": "US Department of Justice (DOJ)",
+    "name": "DOJ - MLARS - Orion Pilot",
+    "stage": "Qualify",
+    "amount": 100000,
+    "close": "2027-02-12",
+    "owner": "Greg Krupkin"
+  },
+  {
+    "account": "DEA HQ",
+    "name": "DEA HQ - Orion SOD Special Projects",
+    "stage": "Qualify",
+    "amount": 100000,
+    "close": "2026-09-18",
+    "owner": "Greg Krupkin"
+  },
+  {
+    "account": "Florida Attorney General",
+    "name": "Florida AG - Orion",
+    "stage": "Demo",
+    "amount": 100000,
+    "close": "2026-09-30",
+    "owner": "Ryan Belcher"
+  },
+  {
+    "account": "NSW Police Force (AU)",
+    "name": "Orion - National Cybercrime Capability",
+    "stage": "Trial",
+    "amount": 100000,
+    "close": "2026-12-31",
+    "owner": "Jonathon Stapels"
+  },
+  {
+    "account": "SA Police Force (AU)",
+    "name": "Orion Pilot - SA Police Force",
+    "stage": "Qualify",
+    "amount": 100000,
+    "close": "2026-09-30",
+    "owner": "Jonathon Stapels"
+  },
+  {
+    "account": "WA Police Force (AU)",
+    "name": "Orion Pilot - WA Police Force",
+    "stage": "Trial",
+    "amount": 100000,
+    "close": "2026-06-30",
+    "owner": "Jonathon Stapels"
+  },
+  {
+    "account": "NZ Customs",
+    "name": "Orion Pilot - NZ Customs",
+    "stage": "Demo",
+    "amount": 100000,
+    "close": "2027-06-30",
+    "owner": "Jonathon Stapels"
+  },
+  {
+    "account": "ACCC (AU)",
+    "name": "Orion Pilot - ACCC",
+    "stage": "Demo",
+    "amount": 100000,
+    "close": "2027-09-30",
+    "owner": "Jonathon Stapels"
+  },
+  {
+    "account": "NZ Police",
+    "name": "Orion Pilot - NZ FIU Multi Agency",
+    "stage": "Trial",
+    "amount": 100000,
+    "close": "2026-06-30",
+    "owner": "Jonathon Stapels"
+  },
+  {
+    "account": "KNPA",
+    "name": "KNPA - Police University R&D - Orion",
+    "stage": "Trial Validation",
+    "amount": 100000,
+    "close": "2026-10-31",
+    "owner": "MJ Kim"
+  },
+  {
+    "account": "DEA HQ",
+    "name": "DEA HQ - Orion for Seizure Supervisor",
+    "stage": "Qualify",
+    "amount": 100000,
+    "close": "2026-11-20",
+    "owner": "Greg Krupkin"
+  },
+  {
+    "account": "HM Treasury / OFSI",
+    "name": "HM Treasury / OFSI - Orion",
+    "stage": "Demo",
+    "amount": 96000,
+    "close": "2026-12-01",
+    "owner": "Josh Mccoll"
+  },
+  {
+    "account": "AUSTRAC",
+    "name": "AUSTRAC Orion Trial",
+    "stage": "Demo",
+    "amount": 50000,
+    "close": "2026-09-30",
+    "owner": "Nathan Fischer"
+  },
+  {
+    "account": "Metropolitan Police Service",
+    "name": "MET - Orion POC",
+    "stage": "Qualify",
+    "amount": 30000,
+    "close": "2026-04-30",
+    "owner": "Josh Mccoll"
+  },
+  {
+    "account": "Brooklyn DA",
+    "name": "Brooklyn DA - Orion",
+    "stage": "Qualify",
+    "amount": 0,
+    "close": "2026-09-01",
+    "owner": "Ryan Belcher"
+  },
+  {
+    "account": "NCIS Norway",
+    "name": "NCIS Norway - Orion",
+    "stage": "Qualify",
+    "amount": 0,
+    "close": "2026-12-25",
+    "owner": "John Cann"
+  },
+  {
+    "account": "ASIC (AU)",
+    "name": "Orion - ASIC",
+    "stage": "Qualify",
+    "amount": 0,
+    "close": "2027-09-30",
+    "owner": "Jonathon Stapels"
+  },
+  {
+    "account": "Financial Conduct Authority",
+    "name": "FCA - Market Oversight - Orion",
+    "stage": "Qualify",
+    "amount": 0,
+    "close": "2026-07-31",
+    "owner": "Josh Mccoll"
+  },
+  {
+    "account": "Merkle",
+    "name": "Merkle - Science & Tech (Orion)",
+    "stage": "Qualify",
+    "amount": 0,
+    "close": "2026-09-15",
+    "owner": "Alex Rivera"
+  },
+  {
+    "account": "The Insolvency Service",
+    "name": "The Insolvency Service - Orion OB",
+    "stage": "Qualify",
+    "amount": 0,
+    "close": "2026-10-01",
+    "owner": "Josh Mccoll"
+  }
+]

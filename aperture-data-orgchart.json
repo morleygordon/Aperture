@@ -1,0 +1,381 @@
+{
+  "le": {
+    "title": "Law Enforcement Agency",
+    "subtitle": "FBI Cyber, NCA, Europol, HSI, AFP — typical investigation unit",
+    "nodes": [
+      {
+        "id": "cio",
+        "title": "CIO / CTO",
+        "role": "Technology",
+        "budget": "✓ Controls IT budget",
+        "layer": 0,
+        "type": "economic",
+        "notes": "Signs contracts >$500K. Cares about FedRAMP, data residency, integration with existing systems. Usually not a champion — comes in at POC to close."
+      },
+      {
+        "id": "ciso",
+        "title": "CISO / CSO",
+        "role": "Security",
+        "budget": "✓ Approves security tools",
+        "layer": 0,
+        "type": "economic",
+        "notes": "Co-signs with CIO. Cares about threat intel quality, auditability, and chain-of-custody. Often the internal champion for Orion."
+      },
+      {
+        "id": "cyber-dir",
+        "title": "Cyber Division Director",
+        "role": "Operations",
+        "budget": "~ Operational budget",
+        "layer": 1,
+        "type": "champion",
+        "notes": "Your primary champion. Runs day-to-day investigation teams. Felt the pain directly. Drives the internal business case. Fights procurement on your behalf."
+      },
+      {
+        "id": "intel-dir",
+        "title": "Intelligence Director",
+        "role": "Analysis",
+        "budget": "~ Shared budget",
+        "layer": 1,
+        "type": "neutral",
+        "notes": "Oversees analytical workflows. Cares about output quality and analyst efficiency. Needs to be sold on AI accuracy and auditability."
+      },
+      {
+        "id": "lead-inv",
+        "title": "Lead Investigator / SSA",
+        "role": "Investigations",
+        "budget": "✗ No budget control",
+        "layer": 2,
+        "type": "user",
+        "notes": "Your super-user. Understands the pain most acutely. Will demo internally and drive adoption. Needs to see the product work on real data."
+      },
+      {
+        "id": "analyst",
+        "title": "Crypto Analyst",
+        "role": "Analysis",
+        "budget": "✗ No budget control",
+        "layer": 2,
+        "type": "user",
+        "notes": "End user. Give them the fastest path to \"aha\" in the demo. Their enthusiasm sells to the Director above them."
+      },
+      {
+        "id": "legal",
+        "title": "Legal / OGC",
+        "role": "Legal",
+        "budget": "✗ No budget control",
+        "layer": 2,
+        "type": "blocker",
+        "notes": "BLOCKER. Slow procurement, data privacy concerns, contract redlines. Engage early with pre-approved TRM contract templates. Never surprise them."
+      },
+      {
+        "id": "procurement",
+        "title": "Procurement / Contracting",
+        "role": "Admin",
+        "budget": "✗ No budget control",
+        "layer": 2,
+        "type": "blocker",
+        "notes": "BLOCKER. Existing vehicle (GSA, G-Cloud, SEWP) dramatically speeds this up. Always ask \"what vehicle would you use?\" in discovery."
+      }
+    ],
+    "buyPath": "Cyber Director (champion) → CISO (approver) → CIO (sign-off) → Procurement (vehicle)",
+    "multiThread": "Lead Investigator + Cyber Director + CISO. Keep Legal and Procurement informed early.",
+    "watchOut": "Single-threaded through Cyber Director is the #1 deal risk. If they move orgs, deal dies.",
+    "avgCycle": "9–18 months (gov procurement). 3–6 months with existing vehicle.",
+    "tipsBudget": "Budget lives in Cyber Division operations ($200K–$2M) OR CISO/IT capital budget (larger). Ask which bucket in discovery."
+  },
+  "finserv": {
+    "title": "Tier 1/2 Bank / Financial Institution",
+    "subtitle": "JPMorgan, HSBC, BofA, Barclays — financial crime and cyber teams",
+    "nodes": [
+      {
+        "id": "cro",
+        "title": "Chief Risk Officer",
+        "role": "Risk",
+        "budget": "✓ Controls risk budget",
+        "layer": 0,
+        "type": "economic",
+        "notes": "Ultimate economic buyer for risk and compliance tools. Cares about regulatory outcomes and board reporting. Rarely in deals until late stage — get here via CISO or CMLRO."
+      },
+      {
+        "id": "ciso",
+        "title": "Group CISO",
+        "role": "Security",
+        "budget": "✓ Controls cyber budget",
+        "layer": 0,
+        "type": "economic",
+        "notes": "Co-owner of cyber investigation budget. Champions AI-native tools to replace legacy stack. Often your fastest path to budget."
+      },
+      {
+        "id": "cmlro",
+        "title": "Chief AML/Compliance Officer",
+        "role": "Compliance",
+        "budget": "✓ Controls compliance budget",
+        "layer": 0,
+        "type": "economic",
+        "notes": "Owns AML and financial crime budget. Critical for FinCEN/FCA/AUSTRAC compliance angle. Orion must speak their language: SAR, STR, Travel Rule."
+      },
+      {
+        "id": "fciu",
+        "title": "Financial Crime Intel Unit Head",
+        "role": "FCIU",
+        "budget": "~ Departmental budget",
+        "layer": 1,
+        "type": "champion",
+        "notes": "Best internal champion. Runs the team doing manual correlation Orion replaces. Motivated to show AI-driven efficiency gains to CRO. Builds internal business case."
+      },
+      {
+        "id": "soc-mgr",
+        "title": "SOC Manager / Cyber Ops",
+        "role": "SOC",
+        "budget": "~ Shared with CISO",
+        "layer": 1,
+        "type": "champion",
+        "notes": "Secondary champion for cyber investigation use cases (ransomware response, dark web monitoring). Works alongside FCIU for cross-functional deals."
+      },
+      {
+        "id": "analyst-fin",
+        "title": "Financial Crime Analyst",
+        "role": "Analysis",
+        "budget": "✗ No budget",
+        "layer": 2,
+        "type": "user",
+        "notes": "Super-user. Validate ROI with their real case metrics. Time-per-investigation is your headline number. Get this from them in discovery."
+      },
+      {
+        "id": "vendor-mgr",
+        "title": "Vendor Management",
+        "role": "Procurement",
+        "budget": "✗ No budget",
+        "layer": 2,
+        "type": "blocker",
+        "notes": "BLOCKER. Needs security questionnaire (SIG/CAIQ), data processing agreement, and sometimes third-party pentest results. Prepare these before they ask."
+      },
+      {
+        "id": "legal-fin",
+        "title": "Legal / Data Privacy",
+        "role": "Legal",
+        "budget": "✗ No budget",
+        "layer": 2,
+        "type": "blocker",
+        "notes": "BLOCKER. GDPR data residency, data retention limits, right-to-erasure on PII. Have TRM DPA and EU SCCs ready. UK Addendum for post-Brexit."
+      }
+    ],
+    "buyPath": "FCIU Head (champion) → CISO or CMLRO (approver) → CRO (sign-off) → Vendor Management",
+    "multiThread": "FCIU Analyst + FCIU Head + CISO + CMLRO. Get CRO briefed early for large deals.",
+    "watchOut": "Compliance teams can block if Orion is positioned as \"AI\" without explainability — always lead with auditability and chain of custody.",
+    "avgCycle": "6–12 months. Faster if existing TRM relationship or SEC/FCA enforcement event creates urgency.",
+    "tipsBudget": "Budget in CISO cyber tool budget ($1M–$5M annual) or FCIU operational budget. Compliance tools often have separate budget line from SEC/FCA mandates."
+  },
+  "exchange": {
+    "title": "Crypto Exchange / VASP",
+    "subtitle": "Binance, Coinbase, Kraken, OKX — compliance and security teams",
+    "nodes": [
+      {
+        "id": "ceo-exc",
+        "title": "CEO / Co-Founder",
+        "role": "Executive",
+        "budget": "✓ Final sign-off",
+        "layer": 0,
+        "type": "economic",
+        "notes": "Often directly involved in compliance decisions at exchanges. Crypto-native, understands the product quickly. Get to CEO if deal is >$500K."
+      },
+      {
+        "id": "cco",
+        "title": "Chief Compliance Officer",
+        "role": "Compliance",
+        "budget": "✓ Owns compliance budget",
+        "layer": 0,
+        "type": "economic",
+        "notes": "Primary economic buyer. Owns FATF Travel Rule, FinCEN/FCA/AUSTRAC obligations. Frames Orion as regulatory necessity not discretionary spend."
+      },
+      {
+        "id": "ciso-exc",
+        "title": "CISO / Head of Security",
+        "role": "Security",
+        "budget": "✓ Owns security budget",
+        "layer": 0,
+        "type": "economic",
+        "notes": "Secondary buyer. Owns dark web monitoring, threat intel, ransomware response budget. Increasingly relevant as exchanges are targeted."
+      },
+      {
+        "id": "mlro",
+        "title": "MLRO / BSA Officer",
+        "role": "AML",
+        "budget": "~ Departmental budget",
+        "layer": 1,
+        "type": "champion",
+        "notes": "Best champion. Personal regulatory liability makes them motivated buyers. Orion directly reduces their exposure on SAR/STR quality. Ask about their last regulatory examination."
+      },
+      {
+        "id": "investigations-mgr",
+        "title": "Head of Investigations",
+        "role": "Investigations",
+        "budget": "~ Shared",
+        "layer": 1,
+        "type": "champion",
+        "notes": "Runs blockchain investigation workflows. Sees Orion value immediately. Use real investigation data in demo — their live cases convert fastest."
+      },
+      {
+        "id": "aml-analyst",
+        "title": "AML Analyst / Investigator",
+        "role": "Analysis",
+        "budget": "✗ No budget",
+        "layer": 2,
+        "type": "user",
+        "notes": "Super-user. Get SAR filing time from them (benchmark vs. Orion). Case volume and investigation complexity determines your ROI number."
+      },
+      {
+        "id": "legal-exc",
+        "title": "Legal / Regulatory Affairs",
+        "role": "Legal",
+        "budget": "✗ No budget",
+        "layer": 2,
+        "type": "blocker",
+        "notes": "BLOCKER. Focus on data sovereignty for exchanges operating in multiple jurisdictions. Know their primary regulator (FinCEN, FCA, MAS, AUSTRAC) and speak to that specifically."
+      }
+    ],
+    "buyPath": "MLRO / Head of Investigations (champion) → CCO (approver) → CEO (sign-off)",
+    "multiThread": "AML Analyst + MLRO + CCO. CISO if doing dark web / threat intel use cases.",
+    "watchOut": "Exchanges move fast but legal sign-off can stall. Have DPA and security docs ready week 1 of POC.",
+    "avgCycle": "2–4 months. Fastest sales cycle of any vertical — regulatory pressure drives urgency.",
+    "tipsBudget": "CCO compliance budget is easiest to access. Frame as regulatory risk mitigation. ROI is direct: FinCEN fine avoidance + analyst time savings."
+  },
+  "natsec": {
+    "title": "National Security / Intelligence Agency",
+    "subtitle": "NSA, GCHQ, ASD, BND, DGSI — SIGINT and HUMINT units",
+    "nodes": [
+      {
+        "id": "dg",
+        "title": "Director General / Director",
+        "role": "Leadership",
+        "budget": "✓ Agency head approves",
+        "layer": 0,
+        "type": "economic",
+        "notes": "Rarely in procurement. Ensure CISO and Ops Director are aligned before requesting DG briefing. TRM executive introduction at right stage accelerates this."
+      },
+      {
+        "id": "ciso-ns",
+        "title": "CIO / CISO",
+        "role": "Technology",
+        "budget": "✓ Controls tech budget",
+        "layer": 0,
+        "type": "economic",
+        "notes": "Gate for all new technology. FedRAMP/IL2/IL4/classified network requirements. Data residency and supply chain concerns critical. Engage early."
+      },
+      {
+        "id": "ops-dir",
+        "title": "Operations Director",
+        "role": "Operations",
+        "budget": "~ Ops budget",
+        "layer": 1,
+        "type": "champion",
+        "notes": "Your champion. Runs analysts conducting investigations. Directly benefits from speed improvement. Often has relationship with LE (Five Eyes coordination)."
+      },
+      {
+        "id": "t-dir",
+        "title": "Technology Director",
+        "role": "Technology",
+        "budget": "~ Shared with CIO",
+        "layer": 1,
+        "type": "neutral",
+        "notes": "Technical gatekeeper. Validates architecture, API access, data handling. Needs to see Orion security documentation, pentesting, and architecture diagram."
+      },
+      {
+        "id": "analyst-ns",
+        "title": "Senior Analyst / Operator",
+        "role": "Analysis",
+        "budget": "✗ No budget",
+        "layer": 2,
+        "type": "user",
+        "notes": "Super-user. High clearance. Often sceptical of commercial tools — earn trust by showing domain knowledge and operational use cases."
+      },
+      {
+        "id": "legal-ns",
+        "title": "General Counsel / OGC",
+        "role": "Legal",
+        "budget": "✗ No budget",
+        "layer": 2,
+        "type": "blocker",
+        "notes": "BLOCKER. Intelligence legal frameworks are strict. Classification, sources-and-methods protection, FISA/RIPA/SIGAD constraints. TRM legal must be involved early."
+      },
+      {
+        "id": "procurement-ns",
+        "title": "Contracting Officer",
+        "role": "Procurement",
+        "budget": "✗ No budget",
+        "layer": 2,
+        "type": "blocker",
+        "notes": "BLOCKER. Must use existing GWAC (CIO-SP3, SEWP, STARS), classified contract vehicles, or national equivalent. Ask first meeting what procurement vehicles they use."
+      }
+    ],
+    "buyPath": "Ops Director (champion) → CIO/CISO (technical approver) → DG or Deputy (sign-off) → Contracting Officer",
+    "multiThread": "Senior Analyst + Ops Director + CIO. Get Legal briefed on data handling before POC.",
+    "watchOut": "Classification requirements can prevent cloud deployment. Always ask about network environment (unclassified/SECRET/TS-SCI) in first meeting.",
+    "avgCycle": "12–24 months. Fastest with existing relationship or Five Eyes peer agency endorsement.",
+    "tipsBudget": "Intelligence budget cycles often don't align with commercial. Find the \"unclassified\" budget bucket first — easier to access than classified programme funding."
+  },
+  "regulator": {
+    "title": "Financial Regulator / FIU",
+    "subtitle": "FinCEN, FCA, AUSTRAC, MAS, BaFin — supervision and enforcement",
+    "nodes": [
+      {
+        "id": "dir-reg",
+        "title": "Director / Commissioner",
+        "role": "Leadership",
+        "budget": "✓ Government appropriation",
+        "layer": 0,
+        "type": "economic",
+        "notes": "Government budget approval process. Requires political alignment and often multi-year procurement. Orion investment often requires separate budget line approval."
+      },
+      {
+        "id": "head-cyber",
+        "title": "Head of Cyber / Technology",
+        "role": "Technology",
+        "budget": "✓ Tech budget",
+        "layer": 0,
+        "type": "economic",
+        "notes": "Technology transformation agenda. Cares about AI ethics, explainability, procurement compliance. Must be aligned with Head of Supervision."
+      },
+      {
+        "id": "head-sup",
+        "title": "Head of Supervision / Enforcement",
+        "role": "Operations",
+        "budget": "~ Operational budget",
+        "layer": 1,
+        "type": "champion",
+        "notes": "Best champion. Directly supervises VASPs and banks. Sees the investigation bottleneck daily. Strong ROI case: more enforcement actions per analyst."
+      },
+      {
+        "id": "analyst-reg",
+        "title": "Supervisory Analyst",
+        "role": "Analysis",
+        "budget": "✗ No budget",
+        "layer": 2,
+        "type": "user",
+        "notes": "End user for crypto examination workflows. Get their current manual process time — 40+ hours per VASP examination is typical. Orion target: under 4 hours."
+      },
+      {
+        "id": "legal-reg",
+        "title": "General Counsel",
+        "role": "Legal",
+        "budget": "✗ No budget",
+        "layer": 2,
+        "type": "blocker",
+        "notes": "BLOCKER. Government data handling requirements, open records laws (FOIA/FOI), privacy acts. TRM must confirm government-appropriate DPA terms."
+      },
+      {
+        "id": "it-reg",
+        "title": "IT / Procurement",
+        "role": "Technology",
+        "budget": "✗ No budget",
+        "layer": 2,
+        "type": "blocker",
+        "notes": "BLOCKER. Government tender process, public procurement law compliance (FAR/ITAR/EU directives). Budget cycles tied to government fiscal year."
+      }
+    ],
+    "buyPath": "Head of Supervision (champion) → Head of Technology (approver) → Director (sign-off) → Procurement (tender)",
+    "multiThread": "Supervisory Analyst + Head of Supervision + Head of Technology. Engage Legal early on government DPA.",
+    "watchOut": "Government procurement can require full public tender (RFP/ITT) — 12+ month process. Proactive briefings before RFP publication give you spec influence.",
+    "avgCycle": "12–18 months. Fastest where existing TRM relationship or enforcement event creates urgency.",
+    "tipsBudget": "Government budget tied to fiscal year. US: October start. UK: April start. EU: January start. Miss the window, wait another year."
+  }
+}

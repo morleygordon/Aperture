@@ -1,0 +1,639 @@
+[
+  {
+    "id": "trm-blockchain",
+    "cat": "blockchain",
+    "name": "TRM Blockchain Intelligence",
+    "source": "TRM Labs Native",
+    "what": "Full transaction graph, wallet balances, risk scores, entity attribution, chain hops across 40+ chains including BTC, ETH, TRON, SOL, XMR",
+    "returns": [
+      "Wallet address & balance",
+      "Transaction history with counterparties",
+      "Risk score (0–10) with category breakdown",
+      "Entity label (exchange, mixer, darknet)",
+      "Cross-chain exposure",
+      "Hop-by-hop financial flow"
+    ],
+    "sample": "{\"wallet\":\"1FzW...\",\"balance_usd\":142300,\"risk_score\":8.4,\"risk_categories\":[\"darknet_market\",\"mixer\"],\"entity\":\"Hydra Marketplace\",\"chains\":[\"BTC\",\"ETH\"],\"last_seen\":\"2026-04-20\"}",
+    "personas": [
+      "le",
+      "fin",
+      "exchange",
+      "natsec"
+    ],
+    "buyerValue": "Prosecutors need chain-of-custody wallet tracing. FinCEN SAR writers need risk scores. Exchanges need real-time screening.",
+    "keyQuestion": "Can you trace through mixers and chain hops? — Yes. TRM traces through Tornado Cash, JoinMarket, XMR bridges."
+  },
+  {
+    "id": "trm-chainabuse",
+    "cat": "blockchain",
+    "name": "Chainabuse Victim Reports",
+    "source": "Chainabuse (TRM)",
+    "what": "Victim-reported crypto scam and fraud addresses. 500K+ reports. API and Pro access with full metadata.",
+    "returns": [
+      "Reported address",
+      "Scam category (rug pull, romance, ransomware, pig butchering)",
+      "Report date and victim jurisdiction",
+      "Associated domains and social profiles",
+      "Estimated victim losses"
+    ],
+    "sample": "{\"address\":\"bc1q...\",\"scam_type\":\"pig_butchering\",\"reports\":47,\"estimated_loss_usd\":2100000,\"victims\":[\"US\",\"UK\",\"AU\"],\"domains\":[\"cryptopro-fx.com\"]}",
+    "personas": [
+      "le",
+      "fin",
+      "exchange"
+    ],
+    "buyerValue": "LE: mass victim triage. Exchanges: block reported deposit addresses before funds are mixed. FinServ: SAR-ready victim data.",
+    "keyQuestion": "Is this a full address list or just summaries? — Full metadata including associated infrastructure (domains, social handles, amounts)."
+  },
+  {
+    "id": "flashpoint",
+    "cat": "darkweb",
+    "name": "Flashpoint Intelligence",
+    "source": "Flashpoint",
+    "what": "Dark web marketplace data, threat actor profiles, ransomware victim listings, compromised credentials, forum activity across 1,000+ monitored communities.",
+    "returns": [
+      "Forum post with username, timestamp, content",
+      "Threat actor profile with aliases and TTPs",
+      "Ransomware victim listing with negotiation details",
+      "Leaked credential sets (email:password pairs)",
+      "Dark web marketplace listings"
+    ],
+    "sample": "{\"type\":\"forum_post\",\"actor\":\"LOCKBIT_LEADER\",\"forum\":\"RAMP\",\"content\":\"New victim: MegaCorp Inc. 500GB exfiltrated. Ransom: $2.1M. Deadline: 72hrs.\",\"timestamp\":\"2026-04-21T14:32:00Z\"}",
+    "personas": [
+      "le",
+      "fin",
+      "exchange",
+      "natsec"
+    ],
+    "buyerValue": "John Chirhart note: \"Customers ask about Flashpoint depth.\" Full post content, not just headlines. Actor attribution.",
+    "keyQuestion": "Do we get full post content or just metadata? — Full content including unstructured forum text, actor handles, and infrastructure indicators."
+  },
+  {
+    "id": "webz",
+    "cat": "darkweb",
+    "name": "Webz.io Dark Web Monitor",
+    "source": "Webz.io",
+    "what": "Real-time crawl of dark web forums, paste sites, Telegram channels, and open web leak sites. 10M+ new posts/month.",
+    "returns": [
+      "Post content with source URL",
+      "Entity mentions extracted (companies, people, wallets, IPs)",
+      "Sentiment and intent classification",
+      "Credential exposure alerts",
+      "Ransomware countdown timers and victim data"
+    ],
+    "sample": "{\"source\":\"darkweb_forum\",\"url\":\"http://ramp...onion/thread/4421\",\"mentions\":[\"FBI\",\"TRM Labs\",\"Coinbase\"],\"entities\":[\"192.168.x.x\",\"admin@fbi.gov\"],\"intent\":\"threat\"}",
+    "personas": [
+      "le",
+      "fin",
+      "natsec"
+    ],
+    "buyerValue": "SEC disclosure buyers: \"Is our name being discussed on dark web forums right now?\" Real-time answer.",
+    "keyQuestion": "Is this raw scrape or structured data? — Structured JSON with entity extraction. Raw text also available for Orion NLQ."
+  },
+  {
+    "id": "pipl",
+    "cat": "identity",
+    "name": "Pipl People Intelligence",
+    "source": "Pipl",
+    "what": "People data from 3B+ profiles across social networks, professional directories, public records, and leaked databases. Identity resolution across aliases.",
+    "returns": [
+      "Full name + aliases",
+      "Email addresses (verified and historical)",
+      "Phone numbers (mobile + landline)",
+      "Social profiles (LinkedIn, Facebook, Telegram handles)",
+      "Associated addresses and employers",
+      "Image URLs"
+    ],
+    "sample": "{\"full_name\":\"Dmitri Volkov\",\"emails\":[\"d.volkov@gmail.com\",\"dmitri@protonmail.com\"],\"phones\":[\"+7495...\"],\"socials\":{\"telegram\":\"@d_volkov_crypto\",\"linkedin\":\"...\"},\"confidence\":0.94}",
+    "personas": [
+      "le",
+      "fin",
+      "natsec"
+    ],
+    "buyerValue": "LE: link crypto wallet operator to real-world identity. FinServ: KYC on beneficial owners. Critical for DPRK/OFAC attribution.",
+    "keyQuestion": "Do we get full email addresses or just domains? — Full email addresses where available in commercial data. Some jurisdictions have privacy restrictions."
+  },
+  {
+    "id": "censys",
+    "cat": "network",
+    "name": "Censys Attack Surface Intelligence",
+    "source": "Censys",
+    "what": "Internet-wide scanning covering 5B+ devices. Certificates, open ports, services, hosting relationships, and infrastructure clustering.",
+    "returns": [
+      "IP → domain → certificate mapping",
+      "Open ports and running services",
+      "Hosting provider and ASN",
+      "Certificate issuer and SAN fields",
+      "Sibling hosts sharing same cert/provider",
+      "Geolocation and reverse DNS"
+    ],
+    "sample": "{\"ip\":\"45.142.x.x\",\"domains\":[\"crypto-scam-fx.com\",\"backup-exchange.net\"],\"ports\":[443,8443,3389],\"cert_cn\":\"*.crypto-scam-fx.com\",\"asn\":\"AS209243 Servers.com\",\"country\":\"NL\"}",
+    "personas": [
+      "le",
+      "fin",
+      "natsec"
+    ],
+    "buyerValue": "Ransomware attribution: \"Find all hosts sharing infrastructure with this C2 IP.\" Scam investigation: expand one domain to full infrastructure.",
+    "keyQuestion": "How far can it expand? — Unlimited hops via shared certificate, IP, ASN. Orion automates the expansion."
+  },
+  {
+    "id": "spycloud",
+    "cat": "breach",
+    "name": "SpyCloud Breach Intelligence",
+    "source": "SpyCloud",
+    "what": "Recovered breach data from criminal underground: credentials, PII, payment data from 700+ breach events. Enterprise and consumer exposure.",
+    "returns": [
+      "Email:password pairs from breaches",
+      "Associated username and plaintext password where available",
+      "Breach source name and date",
+      "Employee account exposure by domain",
+      "Payment card data (BIN, last 4)"
+    ],
+    "sample": "{\"email\":\"jsmith@megacorp.com\",\"password_plaintext\":\"Summer2023!\",\"breach\":\"LinkedInB2B_2024\",\"breach_date\":\"2024-03\",\"domain\":\"megacorp.com\",\"username\":\"john.smith.84\"}",
+    "personas": [
+      "le",
+      "fin",
+      "natsec"
+    ],
+    "buyerValue": "THIS IS THE \"FULL EMAIL OR JUST HEADERS\" QUESTION — SpyCloud returns full plaintext credentials where recovered from underground. Not just headers.",
+    "keyQuestion": "Do we get the full credentials or just exposure notification? — FULL plaintext credentials where available in the underground data. This is specifically what SEC/FBI investigators need for attribution."
+  },
+  {
+    "id": "exa",
+    "cat": "darkweb",
+    "name": "Exa Web Search & Intelligence",
+    "source": "Exa (neural search)",
+    "what": "Neural web search optimised for intelligence gathering. Finds relevant pages, extracts entities, and surfaces open-web intelligence that standard search misses.",
+    "returns": [
+      "Relevant page URLs with content extracts",
+      "Entity extraction (names, companies, wallets, addresses)",
+      "Semantic similarity scoring",
+      "Date-filtered results",
+      "Full page text for NLQ processing"
+    ],
+    "sample": "{\"query\":\"Lazarus Group BTC wallets 2026\",\"results\":[{\"url\":\"https://cisa.gov/...\",\"extract\":\"...Lazarus Group has been linked to wallets...\",\"entities\":[\"1FzW...\",\"bc1q...\"]}]}",
+    "personas": [
+      "le",
+      "fin",
+      "natsec"
+    ],
+    "buyerValue": "Open-source starting point for any investigation. Orion uses Exa to build initial intelligence before pivoting to paid data sources.",
+    "keyQuestion": "Is this just web search? — Neural search with entity extraction and full page text. Better signal-to-noise than Google for intelligence tasks."
+  },
+  {
+    "id": "firecrawl",
+    "cat": "darkweb",
+    "name": "Firecrawl Targeted Web Scrape",
+    "source": "Firecrawl",
+    "what": "On-demand crawl of specific URLs, forums, marketplaces, and leak sites. Returns structured content with entity extraction.",
+    "returns": [
+      "Full page content as structured JSON",
+      "Tables, lists, and key data extracted",
+      "Links and related pages",
+      "Images and file references",
+      "Pagination support for forums"
+    ],
+    "sample": "{\"url\":\"http://darkmarket.onion/vendor/cryptoking\",\"content\":{\"vendor_rating\":4.8,\"listings\":47,\"products\":[\"CC dumps\",\"Fullz\",\"SSN sets\"],\"pgp_key\":\"...\"}}",
+    "personas": [
+      "le",
+      "natsec"
+    ],
+    "buyerValue": "LE: scrape a dark web marketplace vendor page and extract all listings. Automates what analysts used to do manually over Tor.",
+    "keyQuestion": "Does this work on .onion sites? — Yes, Orion handles Tor routing for .onion crawls via Firecrawl integration."
+  },
+  {
+    "id": "opencorporates",
+    "cat": "corporate",
+    "name": "OpenCorporates Business Registry",
+    "source": "OpenCorporates",
+    "what": "130M+ company records from 140+ national registries. Company ownership, directors, incorporation history, registered addresses.",
+    "returns": [
+      "Company name and registration number",
+      "Incorporation date and jurisdiction",
+      "Director names and addresses",
+      "Registered agent and address",
+      "Dissolution status",
+      "Related companies via directors"
+    ],
+    "sample": "{\"company\":\"Rapid Crypto LLC\",\"reg_number\":\"L23000123456\",\"jurisdiction\":\"FL_US\",\"incorporated\":\"2023-01-14\",\"directors\":[\"Ivan Petrov\",\"Elena Smirnova\"],\"address\":\"1234 SW 8th St, Miami FL\"}",
+    "personas": [
+      "le",
+      "fin",
+      "natsec"
+    ],
+    "buyerValue": "DPRK money laundering: trace shell companies in FL/WY to real beneficial owners. Scam investigation: find who registered the scam company.",
+    "keyQuestion": "Is this just US companies? — 140+ jurisdictions including offshore (BVI, Cayman, Seychelles). Critical for sanctions evasion investigations."
+  },
+  {
+    "id": "trm-entities",
+    "cat": "blockchain",
+    "name": "TRM Entity Graph",
+    "source": "TRM Labs Native",
+    "what": "Entity-level view linking multiple addresses to named services, exchanges, mixing services, and sanctioned entities. Updated daily from LE intelligence.",
+    "returns": [
+      "Entity name and category",
+      "All associated wallet addresses",
+      "Risk flags (OFAC sanctioned, darknet market, mixer)",
+      "Transaction volume to/from entity",
+      "Known aliases and legal names"
+    ],
+    "sample": "{\"entity\":\"Garantex Exchange\",\"category\":\"sanctioned_exchange\",\"ofac_sanctioned\":true,\"associated_addresses\":847,\"total_volume_btc\":12400,\"aliases\":[\"Garantex Crypto\"]}",
+    "personas": [
+      "le",
+      "fin",
+      "exchange",
+      "natsec"
+    ],
+    "buyerValue": "Exchanges: \"Is this deposit address associated with a sanctioned entity?\" Instant answer with entity-level context.",
+    "keyQuestion": "How current is the entity data? — Updated within 24 hours of new LE intelligence. OFAC designations reflected same day."
+  },
+  {
+    "id": "blockchain-node",
+    "cat": "blockchain",
+    "name": "Direct Blockchain Node Queries",
+    "source": "TRM Labs Infrastructure",
+    "what": "Direct node access for BTC, ETH, TRON, and 20+ additional chains. Mempool monitoring, raw transaction data, real-time event streaming.",
+    "returns": [
+      "Raw transaction data",
+      "Mempool pending transactions",
+      "Block-level confirmation status",
+      "Smart contract events (ERC-20 transfers, DEX swaps)",
+      "Real-time webhook alerts on watched addresses"
+    ],
+    "sample": "{\"txhash\":\"0x7f3a...\",\"status\":\"mempool_pending\",\"from\":\"0xabc...\",\"to\":\"0xdef...\",\"value_eth\":45.2,\"gas_price\":12,\"smart_contract_interaction\":\"Uniswap V3 USDT/ETH\"}",
+    "personas": [
+      "le",
+      "fin",
+      "exchange"
+    ],
+    "buyerValue": "Exchanges: real-time monitoring of deposits before confirmation. LE: detect and interdict in-flight transactions before they confirm.",
+    "keyQuestion": "Can we monitor addresses in real-time? — Yes. Webhook alerts for watched address activity within seconds of mempool entry."
+  },
+  null,
+  {
+    "id": "trm-txmonitoring",
+    "cat": "blockchain",
+    "name": "TRM Transaction Monitoring",
+    "source": "TRM Labs Native",
+    "what": "Real-time screening of incoming/outgoing transactions against sanctions lists, darknet markets, ransomware wallets, and high-risk services. Sub-second response.",
+    "returns": [
+      "Transaction hash and risk verdict (pass/flag/block)",
+      "Risk score breakdown by category",
+      "Matched entity name and sanction list",
+      "Recommended action (pass/review/block)",
+      "Compliance audit trail with timestamp"
+    ],
+    "sample": "{\"txhash\":\"0xabc...\",\"verdict\":\"flag\",\"risk_score\":7.2,\"matched_entity\":\"OFAC SDN - Hydra Market\",\"action\":\"review\",\"latency_ms\":180}",
+    "personas": [
+      "exchange",
+      "fin"
+    ],
+    "buyerValue": "Exchanges: screen every deposit/withdrawal in real time. FinServ: SAR-ready evidence with entity attribution for FinCEN reporting.",
+    "keyQuestion": "How fast is it? — Sub-200ms average. No impact on transaction throughput."
+  },
+  {
+    "id": "trm-wallet-screening",
+    "cat": "blockchain",
+    "name": "TRM Wallet Screening API",
+    "source": "TRM Labs Native",
+    "what": "Batch wallet screening against TRM entity database. Accepts CSV upload of up to 100K addresses. Returns risk profiles, entity labels, and exposure scores.",
+    "returns": [
+      "Address risk score",
+      "Entity label (exchange, mixer, darknet, sanctioned)",
+      "OFAC SDN match flag",
+      "Direct and indirect exposure percentages",
+      "Historical transaction volume"
+    ],
+    "sample": "{\"address\":\"1FzW...\",\"risk_score\":9.1,\"entity\":\"Garantex (OFAC SDN)\",\"direct_exposure_pct\":87,\"indirect_exposure_pct\":95,\"volume_30d_usd\":4200000}",
+    "personas": [
+      "exchange",
+      "fin",
+      "le"
+    ],
+    "buyerValue": "AML batch processing. Exchanges can screen entire customer address books overnight. FinServ can validate counterparty wallets before correspondent banking.",
+    "keyQuestion": "Does it cover all chains? — 40+ chains including BTC, ETH, TRON, SOL, XMR (limited), BSC, Polygon, and all major EVM chains."
+  },
+  {
+    "id": "trm-sanctions",
+    "cat": "blockchain",
+    "name": "TRM Sanctions Screening",
+    "source": "TRM Labs Native",
+    "what": "Crypto-specific sanctions screening against OFAC SDN, EU Consolidated List, UN Security Council, FATF grey/black lists, and 40+ national sanctions regimes.",
+    "returns": [
+      "SDN match with confidence score",
+      "Sanctioned entity name and designation date",
+      "Associated wallets and infrastructure",
+      "Jurisdiction-specific compliance guidance",
+      "Legal basis for designation"
+    ],
+    "sample": "{\"address\":\"bc1q...\",\"ofac_match\":true,\"entity\":\"Tornado Cash (OFAC SDN, 08/2022)\",\"designation_legal_basis\":\"IEEPA\",\"associated_addresses\":234,\"guidance\":\"Prohibited for US persons per OFAC FAQs 1076-1078\"}",
+    "personas": [
+      "exchange",
+      "fin",
+      "natsec"
+    ],
+    "buyerValue": "Travel Rule compliance. Exchanges need this for VASP-to-VASP transfers. FinServ needs it for crypto custody and prime brokerage services.",
+    "keyQuestion": "How quickly are new OFAC designations reflected? — Within 2 hours of OFAC publication."
+  },
+  {
+    "id": "recorded-future",
+    "cat": "threat",
+    "name": "Recorded Future Intelligence",
+    "source": "Recorded Future (integration)",
+    "what": "Structured threat intelligence from 1.5M+ sources. Threat actor profiles, CVE intelligence, malware analysis, geopolitical risk signals, and dark web monitoring.",
+    "returns": [
+      "Threat actor profile with TTP matrix",
+      "CVE risk score and exploitation likelihood",
+      "Malware family indicators and infrastructure",
+      "Industry-specific threat alerts",
+      "Fusion with TRM crypto tracing"
+    ],
+    "sample": "{\"actor\":\"LockBit 3.0\",\"ttps\":[\"T1486\",\"T1490\"],\"targeted_sectors\":[\"healthcare\",\"education\"],\"recent_victims\":[\"Hospital X\"],\"btc_wallets\":[\"bc1q...\"],\"avg_ransom_usd\":1500000}",
+    "personas": [
+      "fin",
+      "natsec",
+      "le"
+    ],
+    "buyerValue": "SEC buyers: \"What threat actors are targeting our sector?\" Orion fuses RF threat intel with TRM blockchain tracing for end-to-end attribution.",
+    "keyQuestion": "How is this different from standalone RF? — Orion uses RF as a data source within AI-native investigation workflows. Natural language queries across RF + blockchain simultaneously."
+  },
+  {
+    "id": "zerofox",
+    "cat": "darkweb",
+    "name": "ZeroFOX Digital Risk & DRPS",
+    "source": "ZeroFOX",
+    "what": "Social media and surface/dark web monitoring for brand threats, executive impersonation, credential leaks, and phishing infrastructure targeting your organisation.",
+    "returns": [
+      "Brand mention with risk classification",
+      "Executive impersonation incidents",
+      "Phishing domain lookalikes",
+      "Credential exposure by employee domain",
+      "Dark web data sale listings mentioning your organisation"
+    ],
+    "sample": "{\"alert_type\":\"credential_exposure\",\"platform\":\"dark_web_forum\",\"employee_domain\":\"megacorp.com\",\"exposed_count\":847,\"breach_source\":\"LinkedIn scrape 2024\",\"action_required\":\"force_password_reset\"}",
+    "personas": [
+      "fin",
+      "natsec"
+    ],
+    "buyerValue": "Financial institutions: \"Is anyone selling our employee credentials right now?\" Pre-breach detection before threat actors use the access.",
+    "keyQuestion": "Is this real-time? — Continuous monitoring with alert latency typically under 4 hours for dark web forum posts."
+  },
+  {
+    "id": "intsights",
+    "cat": "threat",
+    "name": "IntSights / Rapid7 Threat Intel",
+    "source": "IntSights",
+    "what": "Closed-source threat intelligence from criminal underground. HUMINT-enriched threat actor profiles, fraud scheme detection, and financial crime intelligence.",
+    "returns": [
+      "Threat actor profile with aliases and infrastructure",
+      "Underground forum post with full content",
+      "Fraud scheme documentation",
+      "Payment fraud intelligence (BIN attacks, carding)",
+      "Targeted attack warnings"
+    ],
+    "sample": "{\"actor\":\"EVIL_CORP\",\"forum\":\"exploit.in\",\"post_content\":\"New DanaBot campaign targeting US banks this week...\",\"targeted_banks\":[\"Chase\",\"BofA\"],\"iocs\":[\"45.142.x.x\",\"danabot-c2.net\"]}",
+    "personas": [
+      "le",
+      "fin",
+      "natsec"
+    ],
+    "buyerValue": "Financial institutions: \"Are we being specifically targeted by a threat actor?\" Pre-attack intelligence, not post-incident response.",
+    "keyQuestion": "What makes this different from Flashpoint? — IntSights has stronger HUMINT sourcing for financial crime specifically; Flashpoint broader dark web coverage."
+  },
+  {
+    "id": "lexisnexis",
+    "cat": "identity",
+    "name": "LexisNexis Risk Solutions",
+    "source": "LexisNexis",
+    "what": "Identity verification and fraud detection combining public records, credit header data, utility records, and cross-industry fraud intelligence from 10,000+ contributors.",
+    "returns": [
+      "Identity score with fraud risk indicators",
+      "Address history and verification",
+      "Phone number ownership and risk score",
+      "SSN validation and fraud flags",
+      "Cross-industry fraud consortium signals"
+    ],
+    "sample": "{\"subject\":\"John Smith\",\"identity_score\":94,\"fraud_risk\":\"low\",\"ssn_verified\":true,\"address_match\":true,\"phone_risk\":\"clean\",\"consortium_flags\":0}",
+    "personas": [
+      "fin",
+      "exchange"
+    ],
+    "buyerValue": "KYC/AML onboarding. Exchanges need identity verification at account opening. Banks need it for SAR investigations to confirm beneficial owners.",
+    "keyQuestion": "Is this real-name data or just statistical profiles? — Real identity records from authoritative US public records and credit bureau headers. Not available in all jurisdictions."
+  },
+  {
+    "id": "truecaller",
+    "cat": "identity",
+    "name": "Truecaller Phone Intelligence",
+    "source": "Truecaller",
+    "what": "Phone number intelligence covering 3B+ numbers globally. Caller ID data, spam scores, name lookup, and telecom metadata for APAC and emerging markets.",
+    "returns": [
+      "Name registered to phone number",
+      "Spam/fraud risk score",
+      "Country and carrier",
+      "Social media accounts linked to number",
+      "Aliases and previous registrations"
+    ],
+    "sample": "{\"phone\":\"+6591234567\",\"registered_name\":\"Wei Tan\",\"carrier\":\"Singtel\",\"spam_score\":12,\"linked_socials\":[\"telegram:@weitancrypto\"],\"country\":\"SG\"}",
+    "personas": [
+      "le",
+      "fin"
+    ],
+    "buyerValue": "Critical for APAC investigations where Pipl coverage is weaker. Singapore, Indonesia, India phone attribution that Western databases miss.",
+    "keyQuestion": "Is this available globally? — Strong in APAC, South Asia, Africa, Middle East. Weaker in EU/US where GDPR limits data."
+  },
+  {
+    "id": "dow-jones",
+    "cat": "corporate",
+    "name": "Dow Jones Risk & Compliance",
+    "source": "Dow Jones",
+    "what": "PEP screening, adverse media, and sanctions screening across 5M+ entities. Financial crime risk assessment for onboarding and ongoing monitoring.",
+    "returns": [
+      "PEP status and political exposure level",
+      "Adverse media score with article excerpts",
+      "Sanctions list matches across 1,200+ lists",
+      "Ownership and beneficial control structure",
+      "Ongoing monitoring alerts"
+    ],
+    "sample": "{\"entity\":\"Alexander Ivanov\",\"pep_status\":true,\"pep_category\":\"Government Official - Russia\",\"sanctions_matches\":[\"EU Consolidated List\"],\"adverse_media_score\":8.7,\"articles\":[\"FT: Oligarch linked to sanctioned bank...\"]}",
+    "personas": [
+      "fin",
+      "exchange"
+    ],
+    "buyerValue": "Crypto exchange KYC: mandatory PEP screening for Travel Rule compliance. Banks: Enhanced Due Diligence on high-risk customer onboarding.",
+    "keyQuestion": "Is this just for onboarding or ongoing monitoring too? — Both. Orion can trigger re-screening when new adverse media or sanctions are detected."
+  },
+  {
+    "id": "refinitiv",
+    "cat": "corporate",
+    "name": "Refinitiv World-Check",
+    "source": "Refinitiv (LSEG)",
+    "what": "Global database of PEPs, sanctioned individuals, and entities with enhanced due diligence profiles. 5.5M+ records with structured risk assessments.",
+    "returns": [
+      "Profile with risk category and sub-category",
+      "Source documentation and links",
+      "Relationship network (associates, relatives)",
+      "Jurisdiction risk context",
+      "Screening match confidence score"
+    ],
+    "sample": "{\"profile\":\"Mukhtar Ablyazov\",\"category\":\"PEP/Sanctions\",\"jurisdictions\":[\"EU\",\"UK\",\"UA\"],\"associates\":[\"BTA Bank\",\"Ilyas Khrapunov\"],\"confidence\":0.97,\"sources\":[\"Interpol Red Notice\",\"UK Crown Court judgment\"]}",
+    "personas": [
+      "fin",
+      "exchange"
+    ],
+    "buyerValue": "Global standard for correspondent banking due diligence. Orion uses World-Check as structured input into AI investigation workflows.",
+    "keyQuestion": "How does this differ from Dow Jones? — World-Check stronger on international/EMEA coverage; Dow Jones stronger adverse media. Orion uses both."
+  },
+  {
+    "id": "shodan",
+    "cat": "network",
+    "name": "Shodan Internet Intelligence",
+    "source": "Shodan",
+    "what": "Internet-connected device index covering 1.5B+ services. IoT discovery, vulnerability exposure, industrial control system identification, and network mapping.",
+    "returns": [
+      "Device type and firmware version",
+      "Open ports and running services",
+      "CVE exposure with severity scores",
+      "Geolocation and ISP",
+      "SSL certificate details and expiry",
+      "Banner data from services"
+    ],
+    "sample": "{\"ip\":\"185.220.x.x\",\"device\":\"Mikrotik Router\",\"firmware\":\"6.45.9\",\"open_ports\":[22,80,443,8291],\"cves\":[\"CVE-2018-14847 (CVSS 9.8)\"],\"country\":\"NL\",\"isp\":\"Frantech Solutions (bulletproof host)\"}",
+    "personas": [
+      "le",
+      "natsec"
+    ],
+    "buyerValue": "Ransomware attribution: \"What other devices share this threat actor infrastructure?\" Map C2 servers via shared certificate and hosting patterns.",
+    "keyQuestion": "Is this passive scanning or active? — Passive index updated continuously. No active scanning of customer environments. Safe for LE operations."
+  },
+  {
+    "id": "virustotal",
+    "cat": "network",
+    "name": "VirusTotal Malware Intelligence",
+    "source": "VirusTotal (Google)",
+    "what": "Malware analysis platform with 70+ AV engine verdicts, file/URL/IP/domain reputation, and behavioural sandbox analysis from 2M+ daily submissions.",
+    "returns": [
+      "Multi-AV verdict (clean/malicious/suspicious)",
+      "Malware family and threat category",
+      "MITRE ATT&CK technique mapping",
+      "Network indicators from sandbox",
+      "Related malware samples and campaigns"
+    ],
+    "sample": "{\"hash\":\"d41d...\",\"verdict\":\"malicious\",\"av_detections\":62,\"av_total\":72,\"malware_family\":\"LockBit3\",\"mitre_ttps\":[\"T1486\",\"T1490\",\"T1027\"],\"c2_domains\":[\"lockbit-cdn.com\"],\"related_samples\":847}",
+    "personas": [
+      "le",
+      "fin",
+      "natsec"
+    ],
+    "buyerValue": "Incident response: \"Is this file malicious and who wrote it?\" Ransomware attribution from malware sample back to threat actor group.",
+    "keyQuestion": "Does Orion get access to sandbox reports? — Yes. Full dynamic analysis reports including network connections, registry changes, and process trees."
+  },
+  {
+    "id": "greynoise",
+    "cat": "network",
+    "name": "GreyNoise Internet Noise Analysis",
+    "source": "GreyNoise",
+    "what": "Classifies background internet noise vs. targeted attacks. Identifies mass scanning activity, separates it from real threats, and enriches IPs with attacker behaviour context.",
+    "returns": [
+      "IP classification (benign/malicious/unknown)",
+      "Attack type and target (mass scan vs. targeted)",
+      "Associated threat actor or botnet",
+      "First/last seen attack dates",
+      "Related IPs in same campaign"
+    ],
+    "sample": "{\"ip\":\"45.142.x.x\",\"classification\":\"malicious\",\"attack_type\":\"targeted_exploit\",\"tags\":[\"CVE-2023-44487\",\"HTTP2 Rapid Reset\"],\"first_seen\":\"2024-01-15\",\"botnet\":\"Mirai variant\",\"related_ips\":23}",
+    "personas": [
+      "le",
+      "fin",
+      "natsec"
+    ],
+    "buyerValue": "SOC teams: \"Is this IP scanning everyone or just us?\" Targeted attack = high priority. Mass scan = low priority. Orion uses this for alert triage.",
+    "keyQuestion": "How current is the data? — Real-time. GreyNoise observes 1M+ IPs/day across 9K+ honeypot sensors globally."
+  },
+  {
+    "id": "haveibeenpwned",
+    "cat": "breach",
+    "name": "Have I Been Pwned Enterprise",
+    "source": "Troy Hunt / HIBP",
+    "what": "Notification and lookup service for 14B+ pwned credentials across 700+ breaches. Enterprise API for domain-wide monitoring and bulk lookup.",
+    "returns": [
+      "Breach name and date",
+      "Compromised data types (email, password, phone, DOB)",
+      "Pwned count for domain",
+      "Breach description and source",
+      "Password hash exposure flag"
+    ],
+    "sample": "{\"email\":\"j.smith@megacorp.com\",\"breaches\":[\"LinkedIn2024\",\"Dropbox2012\",\"AdobeCC2013\"],\"data_types\":[\"email\",\"password\",\"username\"],\"pwned_count\":3,\"password_hash_exposed\":true}",
+    "personas": [
+      "fin",
+      "le",
+      "natsec"
+    ],
+    "buyerValue": "Proactive corporate exposure monitoring. \"How many of our employees have credentials exposed in recent breaches?\" Pre-credential-stuffing defence.",
+    "keyQuestion": "Is this the same as SpyCloud? — HIBP is broader breach coverage but fewer raw credentials. SpyCloud has more plaintext passwords from criminal underground. Orion uses both."
+  },
+  {
+    "id": "dehashed",
+    "cat": "breach",
+    "name": "DeHashed Credential Intelligence",
+    "source": "DeHashed",
+    "what": "Aggregated breach database covering 15B+ records from hundreds of breach events. Lookup by email, username, phone, IP, or domain. Criminal underground sourcing.",
+    "returns": [
+      "All breaches containing the queried value",
+      "Plaintext or hashed passwords where available",
+      "Associated usernames across platforms",
+      "IP addresses and phone numbers from same breach",
+      "Database source and breach date"
+    ],
+    "sample": "{\"query\":\"target@gmail.com\",\"results\":[{\"breach\":\"Collection#1\",\"password\":\"P@ssw0rd123\",\"username\":\"target_user\",\"date\":\"2019-01\"},{\"breach\":\"LinkedIn_B2B\",\"hashed_pw\":\"$2y$10$...\",\"date\":\"2024-03\"}]}",
+    "personas": [
+      "le",
+      "fin",
+      "natsec"
+    ],
+    "buyerValue": "Investigation: trace a target across multiple breaches to build a comprehensive credential profile. LE attribution: link underground persona to real identity via email.",
+    "keyQuestion": "Are passwords full plaintext or hashed? — Mixed. Plaintext where available in criminal data. SHA/MD5/bcrypt hashes otherwise. Orion flags which format."
+  },
+  {
+    "id": "complyadvantage",
+    "cat": "corporate",
+    "name": "ComplyAdvantage AML Data",
+    "source": "ComplyAdvantage",
+    "what": "AI-generated AML data covering sanctions, PEPs, adverse media, and fitness-and-probity checks. Real-time updates from 30,000+ global sources.",
+    "returns": [
+      "Risk assessment with category breakdown",
+      "Adverse media with full article text",
+      "PEP classification and political connections",
+      "Sanctions matches with legal authority",
+      "Ongoing monitoring alerts via webhook"
+    ],
+    "sample": "{\"entity\":\"Crypto Exchange X\",\"risk_level\":\"high\",\"sanctions\":[\"OFAC SDN\",\"CBUAE\"],\"adverse_media_hits\":47,\"pep_connections\":[\"Director: Former Minister of Finance\"],\"last_updated\":\"2026-04-23T09:00:00Z\"}",
+    "personas": [
+      "exchange",
+      "fin"
+    ],
+    "buyerValue": "VASP onboarding: screen new business customers against AML data before allowing trading. Travel Rule counterparty due diligence.",
+    "keyQuestion": "How often is the data refreshed? — Continuous for sanctions (minutes). Adverse media scraped every 4 hours. PEP status reviewed quarterly."
+  },
+  {
+    "id": "elliptic",
+    "cat": "blockchain",
+    "name": "Elliptic Compliance Data",
+    "source": "Elliptic (integration/comparison)",
+    "what": "Blockchain analytics focused on compliance screening for financial institutions. Strong in EDD workflows and regulatory reporting. Limited investigation depth vs. Orion.",
+    "returns": [
+      "Wallet risk score with compliance classification",
+      "Counterparty exposure report",
+      "Regulatory filing support (Travel Rule)",
+      "Transaction path analysis (limited hops)",
+      "Audit-ready compliance report"
+    ],
+    "sample": "{\"wallet\":\"0xabc...\",\"compliance_risk\":\"high\",\"exposure\":{\"direct_darknet\":12.4,\"indirect_mixer\":34.2},\"travel_rule_status\":\"required\",\"report_url\":\"...\"}",
+    "personas": [
+      "exchange",
+      "fin"
+    ],
+    "buyerValue": "Competitive positioning: Elliptic is compliance-only. Orion has Elliptic-equivalent compliance screening PLUS deep investigation, dark web fusion, and NLQ. Show the gap.",
+    "keyQuestion": "Does Orion replace Elliptic? — For investigation yes. For pure compliance workflows, position as superior. Many customers run both until POC proves Orion covers both."
+  }
+]

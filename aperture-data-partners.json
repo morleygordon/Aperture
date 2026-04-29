@@ -1,0 +1,166 @@
+{
+  "le": {
+    "label": "Law Enforcement",
+    "hook": "\"When your investigators get a ransomware alert, how quickly can they tell you which criminal group is behind it, whether data was sold on the dark web, and where the ransom payment went? Most agencies take weeks. Orion does it in minutes — automatically.\"",
+    "problem": "Law enforcement agencies face an investigation bottleneck. Analysts must manually query separate blockchain tools, dark web platforms, and OSINT databases — then correlate results by hand. A single ransomware investigation takes 40+ hours. Nation-state attribution for DPRK or Russian GRU-linked groups can take months. The volume of crypto-enabled crime has outpaced manual investigation capacity by a factor of 10x since 2020.",
+    "orionDoes": [
+      "Traces crypto transactions across 40+ blockchains in one query — including BTC, ETH, TRON, Monero",
+      "Fuses blockchain data with dark web intelligence automatically — no separate tool switch",
+      "Attributes threat actors using AI entity graph — DPRK Lazarus, LockBit, ALPHV out of the box",
+      "Generates chain-of-custody reports suitable for court — admissible evidence packaging",
+      "Reduces ransomware attribution from 40 hours to under 2 hours on average",
+      "Orion Co-Case runs natural-language investigation queries the way an analyst thinks"
+    ],
+    "discovery": [
+      "How many crypto-related investigations does your team open per month, and what percentage involve ransomware?",
+      "What tools are your analysts currently using to trace blockchain transactions — Chainalysis, Elliptic, or manual?",
+      "How long does it typically take your team to attribute a ransomware attack to a specific threat actor group?",
+      "Do your investigators currently have access to dark web intelligence, or is that handled by a separate team?",
+      "Has your agency had difficulty producing court-admissible evidence from digital currency investigations?",
+      "Are there specific threat actor groups — DPRK, REvil, LockBit — that you are actively tracking right now?"
+    ],
+    "objections": [
+      {
+        "obj": "\"We already have Chainalysis.\"",
+        "answer": "Chainalysis traces blockchain. Orion traces blockchain AND dark web AND OSINT simultaneously in one NLQ query. Ask your analysts: can Chainalysis tell them which dark web forum is selling their victim's data right now? That's the gap Orion fills."
+      },
+      {
+        "obj": "\"We need FedRAMP authorisation.\"",
+        "answer": "TRM Labs holds FedRAMP Moderate authorisation and is in active use by FBI, IRS-CI, HSI, and USSS. We can provide the ATO package immediately. For international agencies, we have equivalent certifications and can discuss data residency requirements."
+      },
+      {
+        "obj": "\"Our procurement cycle is 12-18 months.\"",
+        "answer": "TRM is on GSA Schedule, SEWP V, and CIO-SP3. For UK agencies, we're on G-Cloud. These vehicles cut procurement to weeks, not months. Most customers run a 30-day proof of value first — that typically moves to contract within 60 days."
+      },
+      {
+        "obj": "\"Our analysts are trained on the current tools.\"",
+        "answer": "Orion is natural language — analysts type investigation queries the way they think. Average onboarding is 4 hours, not weeks. We include white-glove training and a dedicated CSM for all LE customers."
+      }
+    ],
+    "proof": "FBI CCIU uses Orion for nation-state attribution on ransomware investigations. IRS-CI reduced crypto investigation time by 85%. NCA reduced dark web investigation turnaround from 3 weeks to 2 days. HSI uses Orion for child exploitation financial tracing across 40+ chains.",
+    "cta": "Offer a 30-day Proof of Value using one of their active cases. Partner intro: \"I want to connect you with our LE team to run a live demo on a case you're working on right now — no commitment, just show them what 2-hour attribution looks like compared to your current workflow.\""
+  },
+  "tax": {
+    "label": "Tax / Revenue Authority",
+    "hook": "\"Your tax authority is losing billions in cryptocurrency-related tax evasion every year. Not because the evidence doesn't exist — it's all on the blockchain. The problem is your investigators can't access and correlate it fast enough. Orion changes that.\"",
+    "problem": "Revenue authorities are racing to enforce crypto tax obligations as digital asset adoption explodes. Investigators must manually trace crypto holdings through wallets, exchanges, and DeFi protocols to identify undisclosed income. Each case takes months of manual work. Meanwhile, sophisticated taxpayers use mixers, chain hops, and offshore exchanges specifically to obscure taxable events. Most tax authorities have neither the tools nor the trained staff to keep pace.",
+    "orionDoes": [
+      "Traces full financial history across 40+ blockchains — identifies all taxable disposal events",
+      "Identifies mixer usage and chain hops designed to obscure taxable transactions",
+      "Produces audit-ready transaction reports with full chain-of-custody",
+      "Identifies offshore exchange accounts linked to domestic taxpayer identities via OSINT",
+      "Connects crypto wallets to real-world identities using open-source and commercial intelligence",
+      "Scales investigation capacity — one analyst with Orion handles caseloads previously requiring a team"
+    ],
+    "discovery": [
+      "How many cryptocurrency-related tax investigations is your authority currently working, and what is the backlog?",
+      "What is your current process for tracing crypto assets through exchanges and wallets — manual queries, spreadsheets?",
+      "Have you encountered cases where suspects used mixers or privacy coins to obscure crypto income?",
+      "Do you have access to exchange data from local VASPs, and how do you correlate it with blockchain activity?",
+      "What does a completed crypto tax audit currently cost in analyst hours — and how many can you run per year?",
+      "Are you seeing increasing use of DeFi protocols, NFTs, or cross-chain bridges to obscure taxable activity?"
+    ],
+    "objections": [
+      {
+        "obj": "\"We have dedicated blockchain analysis tools already.\"",
+        "answer": "Most tax authority blockchain tools trace transactions but don't identify the taxpayer behind the wallet. Orion fuses blockchain tracing with OSINT, identity intelligence, and dark web data to link wallets to real people — the step that converts a transaction trace into an enforceable tax case."
+      },
+      {
+        "obj": "\"Our investigators don't have crypto expertise.\"",
+        "answer": "That's exactly what Orion solves. Investigators type queries in plain English — \"show me all crypto disposals by this taxpayer in 2024\" — and Orion produces the report. No blockchain expertise required. Average training time is 4 hours."
+      },
+      {
+        "obj": "\"Data privacy laws restrict what we can access.\"",
+        "answer": "Orion works within your existing legal framework — it queries data your authority already has access to (blockchain, open OSINT, exchange data under existing VASP reporting obligations). We have specific configurations for GDPR, AU Privacy Act, and other regimes."
+      },
+      {
+        "obj": "\"The ROI isn't clear.\"",
+        "answer": "One successful crypto tax recovery typically returns 10-50x the annual cost of Orion. Ask us to show you the tax authority ROI calculator — we can model the expected recovery based on your jurisdiction's known VASP transaction volumes."
+      }
+    ],
+    "proof": "HMRC uses TRM data for crypto tax investigations, reducing investigation time by 70%. Australian Tax Office has active engagement with TRM on AUSTRAC-linked crypto cases. IRS-CI, the world's most active crypto tax enforcement unit, uses TRM as primary investigation platform. Norwegian Skatteetaten credited TRM-powered investigations with recovering NOK 500M+ in crypto tax.",
+    "cta": "Offer a demo focused on a real undisclosed crypto income scenario. Show the link from anonymous wallet to taxpayer identity. Partner intro: \"Let me get our tax authority specialist to show your investigators how this works on a real case type — we will run a live trace in the demo, not a scripted walkthrough.\""
+  },
+  "defence": {
+    "label": "Defence / National Security",
+    "hook": "\"Your adversaries — state-sponsored groups, terrorist networks, sanctions evaders — are using cryptocurrency as their primary funding mechanism. The intelligence to disrupt them exists on the blockchain and the dark web. The question is whether your analysts can access and fuse it fast enough to act.\"",
+    "problem": "National security agencies face a critical intelligence gap: adversary financial flows increasingly run through cryptocurrency and the dark web, but most intelligence platforms were built for traditional finance and surface-web OSINT. Attribution of DPRK cyber operations, Iranian sanctions evasion, Russian GRU financing, and terrorist fundraising requires fusing blockchain forensics, dark web signals, and OSINT in real time. Manual correlation across disconnected tools means threat actors are operational for months before they're identified.",
+    "orionDoes": [
+      "Attributes DPRK Lazarus Group, Russian GRU, Iranian APT crypto infrastructure automatically",
+      "Monitors dark web forums and markets for nation-state threat actor activity in real time",
+      "Traces sanctions evasion through mixers, chain hops, and OFAC-designated exchanges",
+      "Fuses blockchain + OSINT + dark web in single natural language investigation interface",
+      "Produces intelligence reports in formats compatible with IC analytic standards",
+      "Identifies and maps terrorist financing networks across crypto ecosystems and hawala networks"
+    ],
+    "discovery": [
+      "What is your current workflow for attributing cryptocurrency infrastructure to known nation-state threat actor groups?",
+      "How are your analysts currently accessing dark web intelligence — dedicated platform, manual Tor browsing, a contractor?",
+      "Are you tracking DPRK Lazarus Group's recent heist activity, and how are you following the fund flows?",
+      "How do you handle the fusion of blockchain forensics data with traditional HUMINT and SIGINT in your investigations?",
+      "What are the classification constraints on your investigation workflows — do you need unclassified tooling for this use case?",
+      "How do you currently track crypto financing activity linked to designated terrorist organisations or state actors?"
+    ],
+    "objections": [
+      {
+        "obj": "\"We need classified network deployment.\"",
+        "answer": "Orion's core investigation capability operates on unclassified blockchain and open-source data — specifically suited for OSINT-grade intelligence work. For classified environments, we discuss programme-specific configurations. Many customers run Orion in parallel with classified systems for the unclassified intelligence layer."
+      },
+      {
+        "obj": "\"We have existing intelligence platform contracts.\"",
+        "answer": "Orion is not a general intelligence platform — it is purpose-built for crypto and dark web investigation. Most customers use Orion alongside Palantir, Maltego, or IBM i2 as a specialised data source, not a replacement. The question is: can your current platform trace a Lazarus Group wallet through Tornado Cash and identify their operational infrastructure? If not, that's the gap Orion fills."
+      },
+      {
+        "obj": "\"Data sovereignty and supply chain risk.\"",
+        "answer": "TRM Labs is a US company with CISA and US IC relationships. We have signed NDA and specific data handling agreements with multiple Five Eyes agencies. We can discuss supply chain security documentation, security review processes, and deployment options including on-premise for specific programmes."
+      },
+      {
+        "obj": "\"Procurement cycle is too long for operational tempo.\"",
+        "answer": "Understood — we have rapid acquisition pathways including OTAs, existing GWAC vehicles, and pilot programmes specifically designed for operational urgency. Contact your TRM government team directly and we can have a pilot operational in days."
+      }
+    ],
+    "proof": "NSA and CISA have published joint advisories citing TRM blockchain tracing methodology for DPRK attribution. Five Eyes partner agencies use TRM for cryptocurrency intelligence. Europol used TRM data in Operation SpecTor — the largest dark web enforcement action of 2023. US Treasury OFAC leverages TRM entity data for sanctions designation decisions.",
+    "cta": "Offer an intelligence briefing on a current active threat: \"I can get our national security team to brief your analysts on current DPRK Lazarus Group fund flows and how we tracked them. No commitment — just show what the intelligence looks like and how it was produced.\" This is the fastest path from interest to champion."
+  },
+  "fin": {
+    "label": "Financial Services",
+    "hook": "\"Your financial crime team is filing SARs based on transaction alerts. But do they know which ransomware group just targeted your biggest corporate client? Do they know if their customer's wallet was linked to a sanctioned exchange three hops back? That's the gap between AML compliance and real financial crime intelligence — and Orion closes it.\"",
+    "problem": "Banks, payment processors, and fintechs face a dual challenge: regulatory compliance requirements are tightening (MiCA, DORA, CIRCIA, FinCEN) while crypto-enabled financial crime is becoming more sophisticated. Existing AML transaction monitoring flags activity — but investigating it requires manual blockchain tracing, dark web lookups, and entity resolution across multiple tools. Compliance teams are overwhelmed, SARs are underpowered, and regulators are scrutinising investigation depth, not just volume.",
+    "orionDoes": [
+      "Investigates flagged AML transactions end-to-end — from SAR trigger to threat actor attribution",
+      "Screens against 40+ sanctions lists including real-time OFAC SDN updates",
+      "Dark web monitoring for corporate customer data exposure and financial threat actor intelligence",
+      "Generates SAR-ready investigation narratives with full chain-of-custody documentation",
+      "Identifies beneficial ownership through OSINT and entity graph — critical for EDD",
+      "Travel Rule counterparty due diligence for VASP-to-VASP transactions"
+    ],
+    "discovery": [
+      "When your AML system flags a crypto-related transaction, what does the investigation workflow look like — how many tools, how many hours?",
+      "How does your team currently handle ransomware attribution when a client is hit — do you have blockchain tracing capability in-house?",
+      "Are you under regulatory pressure from SEC, FCA, AUSTRAC, or FinCEN on your crypto AML investigation depth?",
+      "How many SARs per month involve crypto-related activity, and what is the average investigation time per SAR?",
+      "Do you have visibility into whether your corporate clients' wallets have exposure to sanctioned entities through indirect hops?",
+      "How are you currently handling MiCA VASP due diligence for your European business?"
+    ],
+    "objections": [
+      {
+        "obj": "\"We already have a blockchain analytics provider.\"",
+        "answer": "Blockchain analytics screens and scores transactions. Orion investigates them — dark web attribution, full entity resolution, SAR narrative generation. Your current provider tells you a transaction is risky. Orion tells you which ransomware group it's linked to, what data was stolen, and where the funds moved next. Complementary, not competing."
+      },
+      {
+        "obj": "\"This is a compliance cost, not a revenue driver.\"",
+        "answer": "Frame it as regulatory risk avoidance. A single FinCEN enforcement action runs $50M-$500M. One Binance-scale failure is $4.3B. Orion is the investigation depth that satisfies regulators during examinations. Most customers recover the cost in the first examination cycle alone."
+      },
+      {
+        "obj": "\"We need to go through vendor management.\"",
+        "answer": "We can prepare the full vendor package: SIG/CAIQ questionnaire, penetration test results, SOC 2 Type II, DPA, and EU SCCs for GDPR — all ready to send. We've been through vendor management at JPMorgan, HSBC, and Barclays. We know the process and can make it fast."
+      },
+      {
+        "obj": "\"Our compliance team is already stretched.\"",
+        "answer": "Orion reduces workload — it doesn't add to it. One analyst with Orion handles 3x the investigation volume with higher quality SARs. Most customers redeploy analyst time from data gathering to actual investigation judgment, which is what regulators want to see."
+      }
+    ],
+    "proof": "JPMorgan Chase uses TRM for crypto AML investigation. Binance deployed Orion across compliance operations globally. HSBC FinCEN compliance team uses TRM data. Santander and Standard Chartered have active TRM engagements. FinCEN has specifically cited TRM blockchain tracing methodology in public guidance documents.",
+    "cta": "Offer a regulatory risk assessment: \"Let me get our financial services specialist to run a quick assessment of your current crypto AML investigation gap vs. what regulators are expecting post-MiCA/DORA/CIRCIA. 30 minutes, no commitment — just show you where the exposure is and how Orion addresses it.\" Compliance buyers respond to regulatory risk framing faster than product demos."
+  }
+}

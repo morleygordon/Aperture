@@ -1,0 +1,1776 @@
+{
+  "rita_martess": {
+    "name": "Rita Martess",
+    "title": "Account Director",
+    "team": "US Law Enforcement",
+    "rvp": "Schuyler Hawkins",
+    "accounts": [
+      "HSI",
+      "ICE",
+      "DHS HQ",
+      "CBP Intelligence"
+    ],
+    "focusMarkets": [
+      "united_states"
+    ],
+    "focusAgencies": [
+      "DHS",
+      "HSI",
+      "ICE",
+      "CBP"
+    ],
+    "navHighlight": [
+      "easy-button",
+      "command-center",
+      "competitive",
+      "personas"
+    ],
+    "greeting": "HSI, ICE & DHS portfolio loaded. Your priority accounts and intel are live.",
+    "dealFocus": [
+      {
+        "agency": "HSI",
+        "stage": "Negotiate",
+        "value": "$2.4M",
+        "risk": "LOW"
+      },
+      {
+        "agency": "ICE ERO",
+        "stage": "Demo",
+        "value": "$1.8M",
+        "risk": "MED"
+      },
+      {
+        "agency": "DHS CISA",
+        "stage": "Discover",
+        "value": "$3.1M",
+        "risk": "LOW"
+      }
+    ]
+  },
+  "greg_krupkin": {
+    "name": "Greg Krupkin",
+    "title": "Sales Account Director",
+    "team": "US Law Enforcement",
+    "rvp": "Schuyler Hawkins",
+    "accounts": [
+      "FBI",
+      "DoJ",
+      "DEA",
+      "US Marshals"
+    ],
+    "focusMarkets": [
+      "united_states"
+    ],
+    "focusAgencies": [
+      "FBI",
+      "DoJ",
+      "DEA",
+      "USMS"
+    ],
+    "navHighlight": [
+      "easy-button",
+      "command-center",
+      "ai-chat",
+      "competitive"
+    ],
+    "greeting": "FBI & DoJ portfolio loaded. Federal LE intel and deal tracker are live.",
+    "dealFocus": [
+      {
+        "agency": "FBI CCIU",
+        "stage": "Demo",
+        "value": "$4.2M",
+        "risk": "LOW"
+      },
+      {
+        "agency": "DoJ MLARS",
+        "stage": "Negotiate",
+        "value": "$2.8M",
+        "risk": "MED"
+      },
+      {
+        "agency": "DEA SOS",
+        "stage": "Demo",
+        "value": "$1.5M",
+        "risk": "LOW"
+      }
+    ]
+  },
+  "ryan_belcher": {
+    "name": "Ryan Belcher",
+    "title": "Account Director",
+    "team": "US Law Enforcement",
+    "rvp": "Schuyler Hawkins",
+    "accounts": [
+      "USSS",
+      "ATF",
+      "US Marshals",
+      "FinCEN"
+    ],
+    "focusMarkets": [
+      "united_states"
+    ],
+    "focusAgencies": [
+      "USSS",
+      "ATF",
+      "USMS",
+      "FinCEN"
+    ],
+    "navHighlight": [
+      "easy-button",
+      "command-center",
+      "personas",
+      "ai-chat"
+    ],
+    "greeting": "USSS, ATF & Marshals portfolio loaded. Financial crimes intel prioritized.",
+    "dealFocus": [
+      {
+        "agency": "USSS CID",
+        "stage": "Renewal",
+        "value": "$1.9M",
+        "risk": "LOW"
+      },
+      {
+        "agency": "ATF",
+        "stage": "Discover",
+        "value": "$0.8M",
+        "risk": "MED"
+      }
+    ]
+  },
+  "ed_currie": {
+    "name": "Ed Currie",
+    "title": "Account Director, DHS",
+    "team": "US Law Enforcement",
+    "rvp": "Schuyler Hawkins",
+    "accounts": [
+      "DHS",
+      "CBP",
+      "USCIS",
+      "TSA"
+    ],
+    "focusMarkets": [
+      "united_states"
+    ],
+    "focusAgencies": [
+      "DHS",
+      "CBP",
+      "USCIS",
+      "TSA"
+    ],
+    "navHighlight": [
+      "easy-button",
+      "command-center",
+      "competitive",
+      "task-tracker"
+    ],
+    "greeting": "DHS component portfolio loaded. CBP, USCIS & TSA accounts active.",
+    "dealFocus": [
+      {
+        "agency": "CBP",
+        "stage": "Expansion",
+        "value": "$2.1M",
+        "risk": "LOW"
+      },
+      {
+        "agency": "USCIS",
+        "stage": "Discover",
+        "value": "$0.6M",
+        "risk": "MED"
+      }
+    ]
+  },
+  "carlos_verdoni": {
+    "name": "Carlos Verdoni",
+    "title": "Account Director, NALE",
+    "team": "US Law Enforcement",
+    "rvp": "Schuyler Hawkins",
+    "accounts": [
+      "State Police",
+      "HIDTA",
+      "RISS",
+      "Major City PDs"
+    ],
+    "focusMarkets": [
+      "united_states"
+    ],
+    "focusAgencies": [
+      "State LE",
+      "HIDTA",
+      "RISS",
+      "Local LE"
+    ],
+    "navHighlight": [
+      "easy-button",
+      "ai-chat",
+      "personas",
+      "command-center"
+    ],
+    "greeting": "State & Local LE portfolio loaded. NALE playbooks and outreach ready.",
+    "dealFocus": [
+      {
+        "agency": "NYPD",
+        "stage": "Pilot",
+        "value": "$0.4M",
+        "risk": "LOW"
+      },
+      {
+        "agency": "TX DPS",
+        "stage": "Discover",
+        "value": "$0.3M",
+        "risk": "LOW"
+      }
+    ]
+  },
+  "ryan_campbell": {
+    "name": "Ryan Campbell",
+    "title": "Strategic Account Director",
+    "team": "US National Security",
+    "rvp": "Kyle Helseth",
+    "accounts": [
+      "DoD",
+      "IC",
+      "NGA",
+      "DIA"
+    ],
+    "focusMarkets": [
+      "united_states"
+    ],
+    "focusAgencies": [
+      "DoD",
+      "IC",
+      "NGA",
+      "DIA"
+    ],
+    "navHighlight": [
+      "command-center",
+      "competitive",
+      "easy-button",
+      "agent-hub"
+    ],
+    "greeting": "DoD & IC strategic portfolio loaded. Classified program intel active.",
+    "dealFocus": [
+      {
+        "agency": "DoD J2",
+        "stage": "Negotiate",
+        "value": "$5.8M",
+        "risk": "LOW"
+      },
+      {
+        "agency": "NGA",
+        "stage": "Demo",
+        "value": "$3.2M",
+        "risk": "MED"
+      }
+    ]
+  },
+  "allyson_warren": {
+    "name": "Allyson Warren",
+    "title": "Sales Account Director",
+    "team": "US National Security",
+    "rvp": "Kyle Helseth",
+    "accounts": [
+      "NSA",
+      "CIA",
+      "ODNI",
+      "NCTC"
+    ],
+    "focusMarkets": [
+      "united_states"
+    ],
+    "focusAgencies": [
+      "NSA",
+      "CIA",
+      "ODNI",
+      "NCTC"
+    ],
+    "navHighlight": [
+      "command-center",
+      "easy-button",
+      "threat-intel",
+      "competitive"
+    ],
+    "greeting": "NSA, CIA & ODNI portfolio loaded. National security intel prioritized.",
+    "dealFocus": [
+      {
+        "agency": "NSA",
+        "stage": "Expansion",
+        "value": "$4.1M",
+        "risk": "LOW"
+      },
+      {
+        "agency": "CIA CTC",
+        "stage": "Demo",
+        "value": "$2.5M",
+        "risk": "MED"
+      }
+    ]
+  },
+  "chad_flora": {
+    "name": "Chad Flora",
+    "title": "Sales Account Director",
+    "team": "US National Security",
+    "rvp": "Kyle Helseth",
+    "accounts": [
+      "SOCOM",
+      "CYBERCOM",
+      "JSOC"
+    ],
+    "focusMarkets": [
+      "united_states"
+    ],
+    "focusAgencies": [
+      "SOCOM",
+      "CYBERCOM",
+      "JSOC"
+    ],
+    "navHighlight": [
+      "command-center",
+      "easy-button",
+      "soc-sim",
+      "competitive"
+    ],
+    "greeting": "SOCOM & CYBERCOM portfolio loaded. Cyber operations focus active.",
+    "dealFocus": [
+      {
+        "agency": "CYBERCOM",
+        "stage": "Demo",
+        "value": "$3.6M",
+        "risk": "LOW"
+      },
+      {
+        "agency": "SOCOM",
+        "stage": "Discover",
+        "value": "$2.0M",
+        "risk": "MED"
+      }
+    ]
+  },
+  "alex_rivera": {
+    "name": "Alex Rivera",
+    "title": "Sales Account Director",
+    "team": "US National Security",
+    "rvp": "Kyle Helseth",
+    "accounts": [
+      "DTRA",
+      "DARPA",
+      "MDA",
+      "SDA"
+    ],
+    "focusMarkets": [
+      "united_states"
+    ],
+    "focusAgencies": [
+      "DTRA",
+      "DARPA",
+      "MDA",
+      "SDA"
+    ],
+    "navHighlight": [
+      "easy-button",
+      "command-center",
+      "competitive",
+      "personas"
+    ],
+    "greeting": "Defense agencies portfolio loaded. DTRA & advanced programs active.",
+    "dealFocus": [
+      {
+        "agency": "DTRA",
+        "stage": "Demo",
+        "value": "$1.8M",
+        "risk": "LOW"
+      },
+      {
+        "agency": "DARPA",
+        "stage": "Discover",
+        "value": "$1.2M",
+        "risk": "MED"
+      }
+    ]
+  },
+  "john_chirhart": {
+    "name": "John Chirhart",
+    "title": "Strategic Account Director",
+    "team": "Orion Pathfinders",
+    "rvp": "Patrick South (CRO)",
+    "accounts": [
+      "Strategic Defense",
+      "COCOMS",
+      "Joint Programs"
+    ],
+    "focusMarkets": [
+      "united_states"
+    ],
+    "focusAgencies": [
+      "COCOMS",
+      "Joint Staff",
+      "Strategic Command"
+    ],
+    "navHighlight": [
+      "command-center",
+      "competitive",
+      "agent-hub",
+      "easy-button"
+    ],
+    "greeting": "Strategic defense portfolio loaded. COCOM & joint program intel active.",
+    "dealFocus": [
+      {
+        "agency": "STRATCOM",
+        "stage": "Negotiate",
+        "value": "$6.5M",
+        "risk": "LOW"
+      },
+      {
+        "agency": "INDOPACOM",
+        "stage": "Demo",
+        "value": "$3.8M",
+        "risk": "MED"
+      }
+    ]
+  },
+  "john_schreder": {
+    "name": "John Ross Schreder",
+    "title": "Sales Account Director",
+    "team": "US Civilian",
+    "rvp": "Randy Gardner",
+    "accounts": [
+      "IRS-CI",
+      "Treasury",
+      "SEC",
+      "CFTC"
+    ],
+    "focusMarkets": [
+      "united_states"
+    ],
+    "focusAgencies": [
+      "IRS-CI",
+      "Treasury",
+      "SEC",
+      "CFTC"
+    ],
+    "navHighlight": [
+      "easy-button",
+      "command-center",
+      "personas",
+      "competitive"
+    ],
+    "greeting": "FedCiv portfolio loaded. IRS-CI, Treasury & regulators active.",
+    "dealFocus": [
+      {
+        "agency": "IRS-CI",
+        "stage": "Renewal",
+        "value": "$3.4M",
+        "risk": "LOW"
+      },
+      {
+        "agency": "SEC",
+        "stage": "Expansion",
+        "value": "$1.6M",
+        "risk": "LOW"
+      }
+    ]
+  },
+  "tyler_orr": {
+    "name": "Tyler Orr",
+    "title": "Sales Account Director",
+    "team": "US Civilian",
+    "rvp": "Randy Gardner",
+    "accounts": [
+      "USPS",
+      "OIG Offices",
+      "FTC",
+      "FDIC"
+    ],
+    "focusMarkets": [
+      "united_states"
+    ],
+    "focusAgencies": [
+      "USPS-OIG",
+      "FTC",
+      "FDIC",
+      "OIG"
+    ],
+    "navHighlight": [
+      "easy-button",
+      "command-center",
+      "ai-chat",
+      "personas"
+    ],
+    "greeting": "FedCiv portfolio loaded. USPS, OIG & regulatory accounts active.",
+    "dealFocus": [
+      {
+        "agency": "USPS OIG",
+        "stage": "Demo",
+        "value": "$0.9M",
+        "risk": "LOW"
+      },
+      {
+        "agency": "FTC",
+        "stage": "Discover",
+        "value": "$0.5M",
+        "risk": "MED"
+      }
+    ]
+  },
+  "kinsey_cronin": {
+    "name": "Kinsey Cronin",
+    "title": "Strategic Account Director",
+    "team": "NA Private Sector",
+    "rvp": "Matt Kennedy",
+    "accounts": [
+      "Top-Tier NA Banks",
+      "Strategic FIs"
+    ],
+    "focusMarkets": [
+      "united_states"
+    ],
+    "focusAgencies": [
+      "JPMorgan",
+      "Goldman Sachs",
+      "Citi",
+      "BofA"
+    ],
+    "navHighlight": [
+      "command-center",
+      "easy-button",
+      "competitive",
+      "personas"
+    ],
+    "greeting": "Strategic NA FI portfolio loaded. Top-tier bank relationships active.",
+    "dealFocus": [
+      {
+        "agency": "JPMorgan",
+        "stage": "Expansion",
+        "value": "$2.8M",
+        "risk": "LOW"
+      },
+      {
+        "agency": "Goldman Sachs",
+        "stage": "Renewal",
+        "value": "$1.9M",
+        "risk": "LOW"
+      }
+    ]
+  },
+  "michael_pavlick": {
+    "name": "Michael Pavlick",
+    "title": "Account Director",
+    "team": "NA Private Sector",
+    "rvp": "Matt Kennedy",
+    "accounts": [
+      "NA Banks",
+      "Regional FIs",
+      "Credit Unions"
+    ],
+    "focusMarkets": [
+      "united_states"
+    ],
+    "focusAgencies": [
+      "Wells Fargo",
+      "US Bank",
+      "PNC",
+      "Truist"
+    ],
+    "navHighlight": [
+      "easy-button",
+      "command-center",
+      "competitive",
+      "ai-chat"
+    ],
+    "greeting": "NA banking portfolio loaded. Mid-market FI accounts active.",
+    "dealFocus": [
+      {
+        "agency": "Wells Fargo",
+        "stage": "Negotiate",
+        "value": "$1.5M",
+        "risk": "MED"
+      },
+      {
+        "agency": "PNC",
+        "stage": "Demo",
+        "value": "$0.8M",
+        "risk": "LOW"
+      }
+    ]
+  },
+  "jordan_nakamura": {
+    "name": "Jordan Nakamura",
+    "title": "Account Director",
+    "team": "NA Private Sector",
+    "rvp": "Matt Kennedy",
+    "accounts": [
+      "Crypto Exchanges",
+      "Fintech",
+      "DeFi Platforms"
+    ],
+    "focusMarkets": [
+      "united_states"
+    ],
+    "focusAgencies": [
+      "Coinbase",
+      "Kraken",
+      "Circle",
+      "Stripe"
+    ],
+    "navHighlight": [
+      "easy-button",
+      "competitive",
+      "ai-chat",
+      "command-center"
+    ],
+    "greeting": "Crypto & fintech portfolio loaded. Exchange and DeFi accounts active.",
+    "dealFocus": [
+      {
+        "agency": "Coinbase",
+        "stage": "Expansion",
+        "value": "$1.2M",
+        "risk": "LOW"
+      },
+      {
+        "agency": "Circle",
+        "stage": "Renewal",
+        "value": "$0.7M",
+        "risk": "LOW"
+      }
+    ]
+  },
+  "jackie_schwiesow": {
+    "name": "Jackie Schwiesow",
+    "title": "Sales Account Director",
+    "team": "NA Private Sector",
+    "rvp": "Matt Kennedy",
+    "accounts": [
+      "NA Financial Institutions"
+    ],
+    "focusMarkets": [
+      "united_states"
+    ],
+    "focusAgencies": [
+      "NA FIs",
+      "Insurance",
+      "Asset Mgmt"
+    ],
+    "navHighlight": [
+      "easy-button",
+      "command-center",
+      "competitive",
+      "personas"
+    ],
+    "greeting": "NA FI portfolio loaded. Financial institution accounts active.",
+    "dealFocus": [
+      {
+        "agency": "State Street",
+        "stage": "Demo",
+        "value": "$0.9M",
+        "risk": "LOW"
+      }
+    ]
+  },
+  "nicholas_martin": {
+    "name": "Nicholas Martin",
+    "title": "Sales Account Director",
+    "team": "NA Private Sector",
+    "rvp": "Matt Kennedy",
+    "accounts": [
+      "Fidelity",
+      "BlackRock",
+      "Vanguard",
+      "Charles Schwab"
+    ],
+    "focusMarkets": [
+      "united_states"
+    ],
+    "focusAgencies": [
+      "Fidelity",
+      "BlackRock",
+      "Vanguard",
+      "Schwab"
+    ],
+    "navHighlight": [
+      "easy-button",
+      "command-center",
+      "ai-chat",
+      "competitive"
+    ],
+    "greeting": "NA asset management portfolio loaded. Fidelity, BlackRock & Vanguard accounts active.",
+    "dealFocus": [
+      {
+        "agency": "Fidelity",
+        "stage": "Qualify",
+        "value": "$0.6M",
+        "risk": "LOW"
+      },
+      {
+        "agency": "BlackRock",
+        "stage": "Discover",
+        "value": "$0.4M",
+        "risk": "MED"
+      }
+    ]
+  },
+  "patrick_hudgins": {
+    "name": "Patrick Hudgins",
+    "title": "Sales Account Director",
+    "team": "NA Private Sector",
+    "rvp": "Matt Kennedy",
+    "accounts": [
+      "Robinhood",
+      "PayPal",
+      "Cash App",
+      "Venmo"
+    ],
+    "focusMarkets": [
+      "united_states"
+    ],
+    "focusAgencies": [
+      "Robinhood",
+      "PayPal",
+      "Block",
+      "Square"
+    ],
+    "navHighlight": [
+      "easy-button",
+      "command-center",
+      "competitive",
+      "task-tracker"
+    ],
+    "greeting": "NA fintech portfolio loaded. Robinhood, PayPal & Block accounts active.",
+    "dealFocus": [
+      {
+        "agency": "Robinhood",
+        "stage": "Discover",
+        "value": "$0.5M",
+        "risk": "LOW"
+      },
+      {
+        "agency": "PayPal",
+        "stage": "Qualify",
+        "value": "$0.4M",
+        "risk": "MED"
+      }
+    ]
+  },
+  "liam_glennon": {
+    "name": "Liam Glennon",
+    "title": "Sales Account Director",
+    "team": "NA Private Sector",
+    "rvp": "Matt Kennedy",
+    "accounts": [
+      "TD Bank",
+      "BMO",
+      "RBC",
+      "Scotiabank"
+    ],
+    "focusMarkets": [
+      "united_states",
+      "canada"
+    ],
+    "focusAgencies": [
+      "TD Bank",
+      "BMO",
+      "RBC",
+      "Scotiabank"
+    ],
+    "navHighlight": [
+      "easy-button",
+      "command-center",
+      "ai-chat",
+      "competitive"
+    ],
+    "greeting": "NA/Canada banking portfolio loaded. TD, BMO & Canadian banks active.",
+    "dealFocus": [
+      {
+        "agency": "TD Bank",
+        "stage": "Discover",
+        "value": "$0.4M",
+        "risk": "LOW"
+      },
+      {
+        "agency": "RBC",
+        "stage": "Qualify",
+        "value": "$0.3M",
+        "risk": "LOW"
+      }
+    ]
+  },
+  "ryan_miller": {
+    "name": "Ryan Miller",
+    "title": "Sales Account Director",
+    "team": "NA Private Sector",
+    "rvp": "Matt Kennedy",
+    "accounts": [
+      "Mastercard",
+      "Visa",
+      "American Express",
+      "Discover Financial"
+    ],
+    "focusMarkets": [
+      "united_states"
+    ],
+    "focusAgencies": [
+      "Mastercard",
+      "Visa",
+      "Amex",
+      "Discover Financial"
+    ],
+    "navHighlight": [
+      "easy-button",
+      "command-center",
+      "competitive",
+      "personas"
+    ],
+    "greeting": "NA payments portfolio loaded. Mastercard, Visa & card network accounts active.",
+    "dealFocus": [
+      {
+        "agency": "Mastercard",
+        "stage": "Discover",
+        "value": "$0.5M",
+        "risk": "LOW"
+      },
+      {
+        "agency": "Visa",
+        "stage": "Qualify",
+        "value": "$0.4M",
+        "risk": "MED"
+      }
+    ]
+  },
+  "enrique_edelstein": {
+    "name": "Enrique Edelstein",
+    "title": "Account Director, LATAM",
+    "team": "NA Private Sector",
+    "rvp": "Matt Kennedy",
+    "accounts": [
+      "LATAM Banks",
+      "Brazil Regulators",
+      "Mexico FIs"
+    ],
+    "focusMarkets": [
+      "brazil",
+      "mexico",
+      "colombia",
+      "argentina"
+    ],
+    "focusAgencies": [
+      "Banco Central",
+      "COAF",
+      "UIF Mexico",
+      "SBS Peru"
+    ],
+    "navHighlight": [
+      "easy-button",
+      "command-center",
+      "competitive",
+      "ai-chat"
+    ],
+    "greeting": "LATAM portfolio loaded. Brazil, Mexico & regional accounts active.",
+    "dealFocus": [
+      {
+        "agency": "Banco do Brasil",
+        "stage": "Demo",
+        "value": "$0.8M",
+        "risk": "MED"
+      },
+      {
+        "agency": "Banorte",
+        "stage": "Discover",
+        "value": "$0.4M",
+        "risk": "LOW"
+      }
+    ]
+  },
+  "adriel_wong": {
+    "name": "Adriel Wong",
+    "title": "Senior Account Director",
+    "team": "EMEA & APAC Private",
+    "rvp": "David Shepherd",
+    "accounts": [
+      "APAC Exchanges",
+      "Singapore MAS",
+      "HK SFC"
+    ],
+    "focusMarkets": [
+      "singapore",
+      "hong_kong",
+      "australia",
+      "japan"
+    ],
+    "focusAgencies": [
+      "MAS",
+      "SFC",
+      "AUSTRAC",
+      "JFSA"
+    ],
+    "navHighlight": [
+      "easy-button",
+      "command-center",
+      "competitive",
+      "personas"
+    ],
+    "greeting": "APAC private sector portfolio loaded. Singapore, HK & regional accounts active.",
+    "dealFocus": [
+      {
+        "agency": "MAS",
+        "stage": "Expansion",
+        "value": "$1.2M",
+        "risk": "LOW"
+      },
+      {
+        "agency": "SFC HK",
+        "stage": "Negotiate",
+        "value": "$0.9M",
+        "risk": "MED"
+      }
+    ]
+  },
+  "will_bell": {
+    "name": "Will Bell",
+    "title": "Sales Account Director",
+    "team": "EMEA & APAC Private",
+    "rvp": "David Shepherd",
+    "accounts": [
+      "Deutsche Bank",
+      "UBS",
+      "HSBC",
+      "Revolut",
+      "Monzo"
+    ],
+    "focusMarkets": [
+      "united_kingdom",
+      "germany",
+      "switzerland",
+      "netherlands"
+    ],
+    "focusAgencies": [
+      "Deutsche Bank",
+      "UBS",
+      "HSBC",
+      "Revolut",
+      "Monzo"
+    ],
+    "navHighlight": [
+      "easy-button",
+      "command-center",
+      "competitive",
+      "ai-chat"
+    ],
+    "greeting": "EMEA private sector portfolio loaded. UK & EU bank accounts active.",
+    "dealFocus": [
+      {
+        "agency": "Deutsche Bank",
+        "stage": "Renewal",
+        "value": "$1.4M",
+        "risk": "LOW"
+      },
+      {
+        "agency": "UBS",
+        "stage": "Demo",
+        "value": "$0.8M",
+        "risk": "MED"
+      }
+    ]
+  },
+  "joanna_wands": {
+    "name": "Joanna Wands",
+    "title": "Account Director",
+    "team": "EMEA & APAC Private",
+    "rvp": "David Shepherd",
+    "accounts": [
+      "Barclays",
+      "Standard Chartered",
+      "Lloyds",
+      "NatWest"
+    ],
+    "focusMarkets": [
+      "united_kingdom",
+      "singapore"
+    ],
+    "focusAgencies": [
+      "Barclays",
+      "Standard Chartered",
+      "Lloyds",
+      "NatWest"
+    ],
+    "navHighlight": [
+      "easy-button",
+      "command-center",
+      "competitive",
+      "personas"
+    ],
+    "greeting": "UK banking portfolio loaded. Barclays, StanChart & UK FI accounts active.",
+    "dealFocus": [
+      {
+        "agency": "Barclays",
+        "stage": "Discover",
+        "value": "$0.6M",
+        "risk": "LOW"
+      },
+      {
+        "agency": "Standard Chartered",
+        "stage": "Qualify",
+        "value": "$0.5M",
+        "risk": "MED"
+      }
+    ]
+  },
+  "guillaume_rodenas": {
+    "name": "Guillaume Rodenas",
+    "title": "Account Director, France",
+    "team": "EMEA & APAC Private",
+    "rvp": "David Shepherd",
+    "accounts": [
+      "French Banks",
+      "BNP Paribas",
+      "SocGen",
+      "Credit Agricole"
+    ],
+    "focusMarkets": [
+      "france"
+    ],
+    "focusAgencies": [
+      "TRACFIN",
+      "AMF",
+      "ACPR",
+      "French Banks"
+    ],
+    "navHighlight": [
+      "easy-button",
+      "command-center",
+      "competitive",
+      "ai-chat"
+    ],
+    "greeting": "France private sector portfolio loaded. French banking accounts active.",
+    "dealFocus": [
+      {
+        "agency": "BNP Paribas",
+        "stage": "Demo",
+        "value": "$1.1M",
+        "risk": "LOW"
+      },
+      {
+        "agency": "SocGen",
+        "stage": "Discover",
+        "value": "$0.6M",
+        "risk": "MED"
+      }
+    ]
+  },
+  "cenk_bozal": {
+    "name": "Cenk Bozal",
+    "title": "Account Director, EMEA FIs",
+    "team": "EMEA & APAC Private",
+    "rvp": "David Shepherd",
+    "accounts": [
+      "ING",
+      "Rabobank",
+      "ABN AMRO",
+      "Zurich Insurance",
+      "Adyen"
+    ],
+    "focusMarkets": [
+      "germany",
+      "netherlands",
+      "switzerland",
+      "united_kingdom"
+    ],
+    "focusAgencies": [
+      "ING",
+      "Rabobank",
+      "ABN AMRO",
+      "Zurich Insurance",
+      "Adyen"
+    ],
+    "navHighlight": [
+      "easy-button",
+      "command-center",
+      "competitive",
+      "personas"
+    ],
+    "greeting": "EMEA FI portfolio loaded. European bank accounts active.",
+    "dealFocus": [
+      {
+        "agency": "ING",
+        "stage": "Demo",
+        "value": "$0.9M",
+        "risk": "LOW"
+      },
+      {
+        "agency": "Rabobank",
+        "stage": "Discover",
+        "value": "$0.5M",
+        "risk": "MED"
+      }
+    ]
+  },
+  "colin_lee": {
+    "name": "Colin Lee",
+    "title": "Account Director, APAC FIs",
+    "team": "EMEA & APAC Private",
+    "rvp": "David Shepherd",
+    "accounts": [
+      "DBS",
+      "OCBC",
+      "ANZ",
+      "Westpac"
+    ],
+    "focusMarkets": [
+      "singapore",
+      "hong_kong",
+      "australia"
+    ],
+    "focusAgencies": [
+      "DBS",
+      "OCBC",
+      "ANZ",
+      "Westpac"
+    ],
+    "navHighlight": [
+      "easy-button",
+      "command-center",
+      "competitive",
+      "ai-chat"
+    ],
+    "greeting": "APAC FI portfolio loaded. Regional bank accounts active.",
+    "dealFocus": [
+      {
+        "agency": "DBS",
+        "stage": "Demo",
+        "value": "$0.7M",
+        "risk": "LOW"
+      }
+    ]
+  },
+  "michael_mccormack": {
+    "name": "Michael McCormack",
+    "title": "Senior Account Director",
+    "team": "EMEA Public Sector",
+    "rvp": "Adam Clegg",
+    "accounts": [
+      "UK NCA",
+      "Europol",
+      "UK HMRC",
+      "Five Eyes Partners"
+    ],
+    "focusMarkets": [
+      "united_kingdom",
+      "eu"
+    ],
+    "focusAgencies": [
+      "NCA",
+      "Europol",
+      "HMRC",
+      "Five Eyes"
+    ],
+    "navHighlight": [
+      "command-center",
+      "easy-button",
+      "competitive",
+      "agent-hub"
+    ],
+    "greeting": "EMEA public sector senior portfolio loaded. NCA, Europol & Five Eyes active.",
+    "dealFocus": [
+      {
+        "agency": "NCA UK",
+        "stage": "Expansion",
+        "value": "$2.6M",
+        "risk": "LOW"
+      },
+      {
+        "agency": "Europol",
+        "stage": "Negotiate",
+        "value": "$1.8M",
+        "risk": "LOW"
+      }
+    ]
+  },
+  "josh_mccoll": {
+    "name": "Josh Mccoll",
+    "title": "Account Director",
+    "team": "EMEA Public Sector",
+    "rvp": "Adam Clegg",
+    "accounts": [
+      "UK LE",
+      "EMEA LE Agencies"
+    ],
+    "focusMarkets": [
+      "united_kingdom"
+    ],
+    "focusAgencies": [
+      "UK Police",
+      "Met Police",
+      "HMRC"
+    ],
+    "navHighlight": [
+      "easy-button",
+      "command-center",
+      "ai-chat",
+      "competitive"
+    ],
+    "greeting": "UK & EMEA portfolio loaded. UK law enforcement accounts active.",
+    "dealFocus": [
+      {
+        "agency": "Met Police",
+        "stage": "Pilot",
+        "value": "$0.4M",
+        "risk": "LOW"
+      }
+    ]
+  },
+  "owain_mason_johns": {
+    "name": "Owain Mason-Johns",
+    "title": "Account Director, UK NatSec",
+    "team": "EMEA Public Sector",
+    "rvp": "Adam Clegg",
+    "accounts": [
+      "UK National Security",
+      "MOD",
+      "GCHQ",
+      "MI5"
+    ],
+    "focusMarkets": [
+      "united_kingdom"
+    ],
+    "focusAgencies": [
+      "MOD",
+      "GCHQ",
+      "MI5",
+      "UK NatSec"
+    ],
+    "navHighlight": [
+      "command-center",
+      "easy-button",
+      "competitive",
+      "threat-intel"
+    ],
+    "greeting": "UK national security portfolio loaded. MOD & intelligence accounts active.",
+    "dealFocus": [
+      {
+        "agency": "MOD",
+        "stage": "Demo",
+        "value": "$1.8M",
+        "risk": "MED"
+      },
+      {
+        "agency": "GCHQ",
+        "stage": "Discover",
+        "value": "$1.2M",
+        "risk": "LOW"
+      }
+    ]
+  },
+  "john_cann": {
+    "name": "John Cann",
+    "title": "Sales Account Director",
+    "team": "EMEA Public Sector",
+    "rvp": "Adam Clegg",
+    "accounts": [
+      "BKA Germany",
+      "Bundeskriminalamt",
+      "Swiss FEDPOL",
+      "Austrian BK"
+    ],
+    "focusMarkets": [
+      "germany",
+      "switzerland",
+      "austria"
+    ],
+    "focusAgencies": [
+      "BKA",
+      "Swiss FEDPOL",
+      "Austrian BK",
+      "Europol"
+    ],
+    "navHighlight": [
+      "easy-button",
+      "command-center",
+      "competitive",
+      "personas"
+    ],
+    "greeting": "DACH & Central Europe LE portfolio loaded. BKA, FEDPOL & Austrian accounts active.",
+    "dealFocus": [
+      {
+        "agency": "BKA Germany",
+        "stage": "Discover",
+        "value": "$0.5M",
+        "risk": "LOW"
+      },
+      {
+        "agency": "Swiss FEDPOL",
+        "stage": "Qualify",
+        "value": "$0.4M",
+        "risk": "MED"
+      }
+    ]
+  },
+  "laurent_tisseyre": {
+    "name": "Laurent Tisseyre",
+    "title": "Account Director, France Public",
+    "team": "EMEA Public Sector",
+    "rvp": "Adam Clegg",
+    "accounts": [
+      "French LE",
+      "Gendarmerie",
+      "Police Nationale",
+      "TRACFIN"
+    ],
+    "focusMarkets": [
+      "france"
+    ],
+    "focusAgencies": [
+      "TRACFIN",
+      "Gendarmerie",
+      "Police Nationale",
+      "Douanes"
+    ],
+    "navHighlight": [
+      "easy-button",
+      "command-center",
+      "competitive",
+      "ai-chat"
+    ],
+    "greeting": "France public sector portfolio loaded. French LE accounts active.",
+    "dealFocus": [
+      {
+        "agency": "TRACFIN",
+        "stage": "Expansion",
+        "value": "$0.9M",
+        "risk": "LOW"
+      },
+      {
+        "agency": "Gendarmerie",
+        "stage": "Pilot",
+        "value": "$0.3M",
+        "risk": "MED"
+      }
+    ]
+  },
+  "tal_croitoru": {
+    "name": "Tal Croitoru",
+    "title": "Sales Account Director",
+    "team": "EMEA Public Sector",
+    "rvp": "Adam Clegg",
+    "accounts": [
+      "Israel",
+      "Middle East",
+      "UAE",
+      "Saudi Arabia"
+    ],
+    "focusMarkets": [
+      "israel",
+      "uae",
+      "saudi_arabia"
+    ],
+    "focusAgencies": [
+      "Israel Police",
+      "IMPA",
+      "UAE FIU",
+      "SAMA"
+    ],
+    "navHighlight": [
+      "easy-button",
+      "command-center",
+      "competitive",
+      "personas"
+    ],
+    "greeting": "Israel & Middle East portfolio loaded. Regional accounts active.",
+    "dealFocus": [
+      {
+        "agency": "Israel Police",
+        "stage": "Renewal",
+        "value": "$0.8M",
+        "risk": "LOW"
+      },
+      {
+        "agency": "UAE FIU",
+        "stage": "Discover",
+        "value": "$0.6M",
+        "risk": "MED"
+      }
+    ]
+  },
+  "jacob_cohen": {
+    "name": "Jacob Cohen",
+    "title": "Account Director",
+    "team": "EMEA Public Sector",
+    "rvp": "Adam Clegg",
+    "accounts": [
+      "Netherlands FIOD",
+      "Belgian FIU",
+      "Luxembourg FIU",
+      "Eurojust"
+    ],
+    "focusMarkets": [
+      "netherlands",
+      "belgium",
+      "luxembourg"
+    ],
+    "focusAgencies": [
+      "FIOD",
+      "Belgian FIU",
+      "CRF Luxembourg",
+      "Eurojust"
+    ],
+    "navHighlight": [
+      "easy-button",
+      "command-center",
+      "competitive",
+      "ai-chat"
+    ],
+    "greeting": "Benelux & EU institutions portfolio loaded. FIOD, Belgian FIU & Eurojust active.",
+    "dealFocus": [
+      {
+        "agency": "FIOD Netherlands",
+        "stage": "Discover",
+        "value": "$0.5M",
+        "risk": "LOW"
+      },
+      {
+        "agency": "Eurojust",
+        "stage": "Qualify",
+        "value": "$0.4M",
+        "risk": "MED"
+      }
+    ]
+  },
+  "nathan_fischer": {
+    "name": "Nathan Fischer",
+    "title": "Senior Account Director",
+    "team": "APAC",
+    "rvp": "Patrick Lim",
+    "accounts": [
+      "APAC LE",
+      "Australia AFP",
+      "NZ Police",
+      "AUSTRAC"
+    ],
+    "focusMarkets": [
+      "australia",
+      "new_zealand",
+      "singapore"
+    ],
+    "focusAgencies": [
+      "AFP",
+      "AUSTRAC",
+      "NZ Police",
+      "Singapore Police"
+    ],
+    "navHighlight": [
+      "command-center",
+      "easy-button",
+      "competitive",
+      "agent-hub"
+    ],
+    "greeting": "APAC senior portfolio loaded. AFP, AUSTRAC & Five Eyes APAC active.",
+    "dealFocus": [
+      {
+        "agency": "AFP",
+        "stage": "Expansion",
+        "value": "$1.4M",
+        "risk": "LOW"
+      },
+      {
+        "agency": "AUSTRAC",
+        "stage": "Renewal",
+        "value": "$1.1M",
+        "risk": "LOW"
+      }
+    ]
+  },
+  "jonathon_stapels": {
+    "name": "Jonathon Stapels",
+    "title": "Account Director",
+    "team": "APAC",
+    "rvp": "Patrick Lim",
+    "accounts": [
+      "India FIU",
+      "India ED",
+      "RBI",
+      "Indian Exchanges"
+    ],
+    "focusMarkets": [
+      "india",
+      "bangladesh",
+      "sri_lanka"
+    ],
+    "focusAgencies": [
+      "India FIU-IND",
+      "Enforcement Directorate",
+      "RBI",
+      "WazirX"
+    ],
+    "navHighlight": [
+      "easy-button",
+      "command-center",
+      "competitive",
+      "ai-chat"
+    ],
+    "greeting": "South Asia portfolio loaded. India FIU, ED & exchange accounts active.",
+    "dealFocus": [
+      {
+        "agency": "India FIU-IND",
+        "stage": "Discover",
+        "value": "$0.4M",
+        "risk": "MED"
+      },
+      {
+        "agency": "WazirX",
+        "stage": "Qualify",
+        "value": "$0.2M",
+        "risk": "LOW"
+      }
+    ]
+  },
+  "eileen_ng": {
+    "name": "Eileen Ng",
+    "title": "Account Director",
+    "team": "APAC",
+    "rvp": "Patrick Lim",
+    "accounts": [
+      "Southeast Asia",
+      "ASEAN Partners"
+    ],
+    "focusMarkets": [
+      "singapore",
+      "thailand",
+      "philippines",
+      "indonesia"
+    ],
+    "focusAgencies": [
+      "MAS",
+      "AMLO Thailand",
+      "AMLC Philippines"
+    ],
+    "navHighlight": [
+      "easy-button",
+      "command-center",
+      "competitive",
+      "personas"
+    ],
+    "greeting": "Southeast Asia portfolio loaded. ASEAN accounts active.",
+    "dealFocus": [
+      {
+        "agency": "MAS Singapore",
+        "stage": "Demo",
+        "value": "$0.7M",
+        "risk": "LOW"
+      },
+      {
+        "agency": "AMLO Thailand",
+        "stage": "Discover",
+        "value": "$0.3M",
+        "risk": "MED"
+      }
+    ]
+  },
+  "anshun_tan": {
+    "name": "An Shun Tan",
+    "title": "Account Director",
+    "team": "APAC",
+    "rvp": "Patrick Lim",
+    "accounts": [
+      "DSTA Singapore",
+      "Australian Federal Police",
+      "Korea NPA",
+      "Taiwan MJIB"
+    ],
+    "focusMarkets": [
+      "singapore",
+      "australia",
+      "south_korea",
+      "taiwan"
+    ],
+    "focusAgencies": [
+      "DSTA",
+      "AFP",
+      "Korea NPA",
+      "MJIB"
+    ],
+    "navHighlight": [
+      "easy-button",
+      "command-center",
+      "ai-chat",
+      "competitive"
+    ],
+    "greeting": "APAC strategic accounts loaded. DSTA, AFP & Korea NPA active.",
+    "dealFocus": [
+      {
+        "agency": "DSTA",
+        "stage": "Qualify",
+        "value": "$2.0M",
+        "risk": "LOW"
+      },
+      {
+        "agency": "Korea NPA",
+        "stage": "Qualify",
+        "value": "$0.6M",
+        "risk": "LOW"
+      }
+    ]
+  },
+  "mj_kim": {
+    "name": "MJ Kim",
+    "title": "Account Director",
+    "team": "APAC",
+    "rvp": "Patrick Lim",
+    "accounts": [
+      "South Korea",
+      "KoFIU",
+      "Korea Customs",
+      "Korean Banks"
+    ],
+    "focusMarkets": [
+      "south_korea"
+    ],
+    "focusAgencies": [
+      "KoFIU",
+      "Korea Customs",
+      "FSS",
+      "Korean Exchanges"
+    ],
+    "navHighlight": [
+      "easy-button",
+      "command-center",
+      "competitive",
+      "personas"
+    ],
+    "greeting": "Korea portfolio loaded. KoFIU & Korean exchange accounts active.",
+    "dealFocus": [
+      {
+        "agency": "KoFIU",
+        "stage": "Expansion",
+        "value": "$0.9M",
+        "risk": "LOW"
+      },
+      {
+        "agency": "Upbit/Bithumb",
+        "stage": "Renewal",
+        "value": "$0.5M",
+        "risk": "LOW"
+      }
+    ]
+  },
+  "junji_okayasu": {
+    "name": "Junji Okayasu",
+    "title": "Account Director",
+    "team": "APAC",
+    "rvp": "Patrick Lim",
+    "accounts": [
+      "Japan",
+      "JAFIC",
+      "FSA Japan",
+      "Japanese Banks"
+    ],
+    "focusMarkets": [
+      "japan"
+    ],
+    "focusAgencies": [
+      "JAFIC",
+      "FSA",
+      "NPA Japan",
+      "Japanese Exchanges"
+    ],
+    "navHighlight": [
+      "easy-button",
+      "command-center",
+      "competitive",
+      "ai-chat"
+    ],
+    "greeting": "Japan portfolio loaded. JAFIC & Japanese financial accounts active.",
+    "dealFocus": [
+      {
+        "agency": "JAFIC",
+        "stage": "Demo",
+        "value": "$1.1M",
+        "risk": "LOW"
+      },
+      {
+        "agency": "bitFlyer",
+        "stage": "Renewal",
+        "value": "$0.3M",
+        "risk": "LOW"
+      }
+    ]
+  },
+  "vincent_tan": {
+    "name": "Vincent Tan",
+    "title": "Account Director, APAC Public Sector",
+    "team": "APAC",
+    "rvp": "Patrick Lim",
+    "accounts": [
+      "Hong Kong SFC",
+      "HKMA",
+      "Macau DICJ",
+      "HK Customs"
+    ],
+    "focusMarkets": [
+      "hong_kong",
+      "macau"
+    ],
+    "focusAgencies": [
+      "SFC",
+      "HKMA",
+      "DICJ Macau",
+      "HK Customs"
+    ],
+    "navHighlight": [
+      "easy-button",
+      "command-center",
+      "competitive",
+      "personas"
+    ],
+    "greeting": "Hong Kong & Macau portfolio loaded. SFC, HKMA & regulatory accounts active.",
+    "dealFocus": [
+      {
+        "agency": "HKMA",
+        "stage": "Discover",
+        "value": "$0.5M",
+        "risk": "LOW"
+      },
+      {
+        "agency": "SFC HK",
+        "stage": "Qualify",
+        "value": "$0.3M",
+        "risk": "MED"
+      }
+    ]
+  },
+  "simon_warren": {
+    "name": "Simon Warren",
+    "title": "Strategic Account Director",
+    "team": "Orion Pathfinders",
+    "rvp": "Patrick South (CRO)",
+    "accounts": [
+      "Strategic Global Accounts",
+      "Enterprise Programs"
+    ],
+    "focusMarkets": [
+      "united_states",
+      "united_kingdom",
+      "singapore"
+    ],
+    "focusAgencies": [
+      "Strategic Enterprise",
+      "Global Programs"
+    ],
+    "navHighlight": [
+      "command-center",
+      "competitive",
+      "agent-hub",
+      "easy-button"
+    ],
+    "greeting": "Strategic accounts portfolio loaded. Enterprise program intel active.",
+    "dealFocus": [
+      {
+        "agency": "Global Strategic",
+        "stage": "Negotiate",
+        "value": "$8.2M",
+        "risk": "LOW"
+      },
+      {
+        "agency": "Enterprise",
+        "stage": "Expansion",
+        "value": "$4.5M",
+        "risk": "LOW"
+      }
+    ]
+  }
+}
